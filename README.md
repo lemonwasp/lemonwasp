@@ -387,8 +387,9 @@ They have strengthened my adaptability, cross-cultural communication, and abilit
 | Language | Level |
 |---|---|
 | 🇰🇷 Korean | Native |
-| 🇯🇵 Japanese | Business |
+| 🇯🇵 Japanese | Business · JLPT N1 |
 | 🇬🇧 English | Business |
+| 🇷🇴 Romanian | Basic |
 
 ---
 
