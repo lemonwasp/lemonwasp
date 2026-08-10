@@ -2,7 +2,7 @@
 
 # Hi, I'm Taegwan Hong 👋
 
-### Backend Engineer based in Japan 🇯🇵
+### Backend Engineer based in Japan
 
 Building backend systems with a focus on  
 **Architecture · Data · Maintainability · Automation**
