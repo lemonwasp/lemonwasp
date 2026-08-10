@@ -1,6 +1,6 @@
 <div align="center">
 
-# Hi, I'm TAEGWAN HONG 👋
+# Hi, I'm Taegwan Hong 👋
 
 ### Backend Engineer based in Japan 🇯🇵
 
