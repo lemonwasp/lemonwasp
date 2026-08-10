@@ -364,16 +364,21 @@ AI-enabled Systems
 
 ---
 
-# 🌍 International Experience
+## 🌍 Global Experience
 
-My development and learning experience has included environments across multiple countries.
+> Learning, working, and adapting across different countries and cultures.
 
-🇰🇷 **Korea** — Education and software development  
-🇯🇵 **Japan** — Software engineering and technical training  
-🇩🇪 **Germany** — AI training and hackathon  
-🇷🇴 **Romania** — International experience
+| Country | Experience |
+|---|---|
+| 🇯🇵 **Japan** | Software engineering career · Japanese IT environment · Language & cultural immersion |
+| 🇩🇪 **Germany** | 1-month intensive AI training · Machine Learning / Deep Learning · Azure OpenAI · Hackathon |
+| 🇺🇿 **Uzbekistan** | 1-week international internship · Cross-cultural professional experience |
+| 🇰🇷 **Korea** | Software engineering education · Team & personal development projects |
+| 🇷🇴 **Romania** | 1-month independent stay · Cultural immersion and international living experience |
 
-Working across different environments has strengthened my interest in building software that can operate across teams, technologies, and cultures.
+These experiences have given me exposure to different **working, learning, and living environments** across Europe and Asia.
+
+They have strengthened my adaptability, cross-cultural communication, and ability to work in unfamiliar environments.
 
 ---
 
