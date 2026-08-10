@@ -387,8 +387,8 @@ They have strengthened my adaptability, cross-cultural communication, and abilit
 | Language | Level |
 |---|---|
 | 🇰🇷 Korean | Native |
-| 🇯🇵 Japanese | Professional |
-| 🇬🇧 English | Improving |
+| 🇯🇵 Japanese | Business |
+| 🇬🇧 English | Business |
 
 ---
 
