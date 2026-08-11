@@ -99,7 +99,7 @@ The project is developed incrementally to understand why common backend patterns
 
 > A team-developed web application designed to help seniors and their families stay connected through asynchronous video communication.
 
-The system allows family videos to be delivered to senior users while reaction videos can be recorded and returned.
+The application delivers family videos to senior users and automatically records reaction videos during playback.
 
 ### Engineering Focus
 
@@ -109,16 +109,16 @@ The system allows family videos to be delivered to senior users while reaction v
 
 - Application and backend flow design
 - Database structure design
-- Video retrieval logic
-- Reaction recording workflow
+- Video retrieval and unread-state management
+- Automatic reaction-recording workflow
 - Servlet / JSP application design
 - Specification coordination within the team
 
 ### Stack
 
-`Java` `JSP` `Servlet` `JavaScript` `SQL`
+`Java` `JSP` `Servlet` `JavaScript` `MySQL`
 
-🚧 **Repository reconstruction in progress**
+➡️ [View Project](https://github.com/lemonwasp/tsunagaroom)
 
 ---
 
