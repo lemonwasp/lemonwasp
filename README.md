@@ -4,10 +4,8 @@
 
 ### Backend Engineer based in Japan
 
-Building backend systems with a focus on  
-**Architecture · Data · Maintainability · Automation**
-
-<br>
+I build maintainable backend systems by connecting  
+**architecture, data flow, reliability, and user needs.**
 
 ![C#](https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=dotnet&logoColor=white)
 ![.NET](https://img.shields.io/badge/.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white)
@@ -20,460 +18,192 @@ Building backend systems with a focus on
 
 ---
 
-## 👨‍💻 About Me
+## About Me
 
-I'm a software engineer based in Japan, primarily focused on **backend engineering**.
+I'm a backend-focused software engineer working in Japan.
 
-I enjoy understanding not only how to make software work, but also **why systems are designed the way they are** — how responsibilities should be separated, how data should flow through an application, how failures should be handled, and how software can remain maintainable as it grows.
+I care about separating responsibilities, making data flows explicit, handling failures intentionally, and leaving systems easier to test and change.
 
-My experience spans several technology stacks and development environments:
+My current engineering focus includes:
 
-- 🏗️ Backend development with **C# / .NET**
-- ☕ Web application development with **Java**
-- 🌐 Full-stack development with **TypeScript / JavaScript**
-- 🐍 Backend and AI development with **Python**
-- 💎 API development with **Ruby on Rails**
-- 🗄️ Relational databases and ORM-based persistence
-- 🐳 Containerized development environments
-- ☁️ Cloud infrastructure fundamentals
-- 🤖 Machine Learning, Deep Learning, and Generative AI
-- 👥 Individual and team-based software development
+- Designing maintainable backend architecture
+- Separating HTTP, business, and persistence responsibilities
+- Building reliable data flows with validation and error handling
+- Improving software through testing, logging, and automation
+- Developing through small Issues, feature branches, and Pull Requests
+- Connecting technical decisions to the user problem behind them
 
-I'm currently strengthening my backend engineering fundamentals while gradually expanding toward **cloud infrastructure, distributed systems, system design, and AI-enabled software**.
+Rather than collecting technologies in isolation, I prefer integrating them into working applications and documenting why each engineering decision was made.
 
 ---
 
-## 🎯 Current Focus
+# Selected Projects
 
-### Backend Engineering
-
-`C#` · `.NET` · `ASP.NET` · `Java` · `TypeScript` · `SQL`
-
-### Currently Deepening
-
-`Backend Architecture` · `Database Design` · `Testing` · `Docker` · `Cloud`
-
-### Exploring
-
-`Distributed Systems` · `System Design` · `AI Engineering` · `Performance`
-
----
-
-# 🚀 Featured Projects
-
-## 🏗️ Dotnet Backend Study
+## Dotnet Backend Study
 
 > Evolving a simple ASP.NET MVC CRUD application into a structured and maintainable backend system.
 
-The project is developed incrementally to understand why common backend patterns and infrastructure components are introduced.
+A backend engineering study project that incrementally introduces architectural and reliability improvements into an existing application.
 
-### Engineering Focus
+### Engineering Work
 
-`Architecture` · `Persistence` · `Dependency Injection` · `Testing` · `Maintainability`
-
-### Implemented
-
-- Controller / Service / Repository architecture
-- Repository abstraction
-- Unity Dependency Injection
-- Entity Framework 6
-- SQL Server LocalDB
-- Code First Migrations
+- Controller → Service → Repository architecture
+- Repository abstraction and Unity Dependency Injection
+- Entity Framework 6 and SQL Server persistence
+- DTO and Entity separation with AutoMapper
 - Service-layer validation
-- Global Exception Handling
-- HTTP 400 / 404 / 500 handling
-- AutoMapper
-- log4net
-- MSTest
-- Vue.js integration
+- Global HTTP 400 / 404 / 500 exception handling
+- Application logging with log4net
+- MSTest service-layer unit tests
+- Issue-driven development through feature branches and Pull Requests
+
+### Recent Improvement
+
+Implemented server-side pagination with:
+
+- LINQ `OrderByDescending`, `Skip`, and `Take`
+- Pagination request and response DTOs
+- Total count and page metadata
+- Invalid parameter and out-of-range handling
+- Previous/Next controls in Vue.js
+- Unit tests for pagination and boundary behavior
+
+Development trail:  
+[Issue #26](https://github.com/lemonwasp/dotnet-study/issues/26) → [Merged PR #27](https://github.com/lemonwasp/dotnet-study/pull/27)
 
 ### Stack
 
-`C#` `ASP.NET MVC 5` `.NET Framework 4.8` `EF6` `SQL Server` `Vue.js`
+`C#` · `ASP.NET MVC 5` · `.NET Framework 4.8`  
+`Entity Framework 6` · `SQL Server` · `Vue.js` · `MSTest`
 
-➡️ [View Project](https://github.com/lemonwasp/dotnet-study)
+➡️ [View Dotnet Backend Study](https://github.com/lemonwasp/dotnet-study)
 
 ---
 
-## 👥 Tsunagaroom
+## Tsunagaroom
 
-> A team-developed web application designed to help seniors and their families stay connected through asynchronous video communication.
+> Helping seniors and their families stay connected through asynchronous video communication.
 
-The application delivers family videos to senior users and automatically records reaction videos during playback.
+Tsunagaroom is a Java/JSP team project that plays unread family videos for senior users and automatically records their reactions during playback.
 
-### Engineering Focus
+### Problem and Approach
 
-`Application Design` · `Backend Flow` · `Database Design` · `Team Development`
+Traditional video calls require both sides to be available at the same time.
 
-### My Role
+The application instead uses asynchronous videos so family members and senior users can communicate without coordinating a live call.
 
-- Application and backend flow design
-- Database structure design
-- Video retrieval and unread-state management
-- Automatic reaction-recording workflow
-- Servlet / JSP application design
-- Specification coordination within the team
+### My Contributions
+
+- Designed the interaction between video playback and automatic reaction recording
+- Structured the Servlet → Logic → DAO processing flow
+- Designed unread/read video-state management
+- Implemented and reviewed parts of the recording and upload workflow
+- Participated in screen, server, and database design
+- Coordinated specifications and implementation decisions within the team
+
+This was a team project, and the repository distinguishes my contributions from the work of the full team.
 
 ### Stack
 
-`Java` `JSP` `Servlet` `JavaScript` `MySQL`
+`Java 21` · `Jakarta Servlet` · `JSP`  
+`JavaScript` · `MySQL 8` · `Apache Tomcat 10`
 
-➡️ [View Project](https://github.com/lemonwasp/tsunagaroom)
-
----
-
-## 🤖 AI Training Project — Germany
-
-> Applied AI work completed during an intensive AI training program in Germany.
-
-The training covered the progression from traditional machine learning to deep learning and Generative AI.
-
-### Topics
-
-**Machine Learning**
-
-`K-Means` · `KNN` · `Logistic Regression` · `Decision Tree` · `Random Forest`
-
-**Deep Learning**
-
-`PyTorch` · `CNN` · `RNN` · `Transformer`
-
-**Generative AI**
-
-`Azure OpenAI` · `LangChain`
-
-🏆 **Hackathon winning team**
-
-🚧 **Project repository reconstruction in progress**
+➡️ [View Tsunagaroom](https://github.com/lemonwasp/tsunagaroom)
 
 ---
 
-## 🌐 Modern Web Projects
+# Currently Building
 
-### 📍 Let Eat Go
+## AI Lead Conversion Platform
 
-> A location-based web application exploring modern TypeScript backend and frontend development.
+> A privacy-safe reconstruction of a lead-conversion prototype developed during a 2024 AI hackathon in Ulm, Germany.
 
-### Engineering Focus
+The original prototype was created as a team project using corporate data and received a hackathon award.
 
-`API Design` · `Geospatial Data` · `Backend Development` · `Containerization`
+The current repository is an independent reconstruction using synthetic CRM data. It does not contain the original dataset, proprietary code, internal documents, or credentials.
 
-### Stack
+### Planned System
 
-`Next.js` `TypeScript` `NestJS` `PostgreSQL` `PostGIS` `Docker`
+- Reproducible machine-learning pipeline
+- Leakage-safe data splitting and evaluation
+- FastAPI prediction and explanation endpoints
+- React and TypeScript dashboard
+- Human-reviewed LLM-assisted outreach drafts
+- Automated testing, Docker, and CI
 
-🚧 Project documentation / repository organization in progress
+**Current phase:** repository and safety foundation, including a minimal API health endpoint and automated test.
 
----
-
-### 📊 MyFace Tracker
-
-A personal tracking application exploring lightweight Python backend development and data persistence.
-
-**Stack**
-
-`Python` `FastAPI` `SQLite` `Supabase`
-
-➡️ [View Project](https://github.com/lemonwasp/myface-tracker)
+➡️ [View AI Lead Conversion Platform](https://github.com/lemonwasp/ai-lead-conversion-platform)
 
 ---
 
-### 💎 Rails + Vue Blog
+# Core Technologies
 
-An API-oriented web application built to practice separation between a backend API and frontend SPA.
-
-**Stack**
-
-`Ruby on Rails` `Vue.js` `REST API`
-
-➡️ [View Project](https://github.com/lemonwasp/Ruby-Vuejs-blog)
-
----
-
-# 🧰 Tech Stack
-
-> Technologies I have used across personal projects, team projects, training, and development practice.
-
-## 💻 Languages
-
-<p>
-  <img src="https://skillicons.dev/icons?i=cs,java,ts,js,python,ruby" />
-</p>
-
-`C#` · `Java` · `TypeScript` · `JavaScript` · `Python` · `Ruby` · `SQL`
+| Area | Technologies |
+|---|---|
+| **Primary Languages** | C#, Java, TypeScript, JavaScript, Python, SQL |
+| **Backend** | ASP.NET MVC, .NET Framework, Entity Framework, JSP/Servlet, NestJS, FastAPI |
+| **Databases** | SQL Server, PostgreSQL, PostGIS, MySQL, SQLite |
+| **Frontend** | Vue.js, React, Next.js, Razor |
+| **Quality** | MSTest, Selenium, validation, exception handling, logging |
+| **Infrastructure** | Docker, GitHub Actions, AWS and Azure fundamentals |
+| **Workflow** | Git, GitHub, Bitbucket, Issues, feature branches, Pull Requests |
+| **Applied AI** | PyTorch, Machine Learning, Azure OpenAI, LangChain |
 
 ---
 
-## ⚙️ Backend
-
-<p>
-  <img src="https://skillicons.dev/icons?i=dotnet,nestjs,fastapi,rails,nodejs" />
-</p>
-
-### .NET
-
-`ASP.NET MVC 5` · `.NET Framework 4.8` · `Entity Framework 6` · `LINQ`  
-`Unity` · `AutoMapper` · `log4net`
-
-### Java
-
-`JSP` · `Servlet`
-
-### TypeScript / JavaScript
-
-`Node.js` · `NestJS`
-
-### Python
-
-`FastAPI`
-
-### Ruby
-
-`Ruby on Rails` · `Rails API`
-
----
-
-## 🎨 Frontend
-
-<p>
-  <img src="https://skillicons.dev/icons?i=react,vue,nextjs,vite,tailwind,html,css" />
-</p>
-
-`React` · `Vue.js` · `Next.js` · `TypeScript`  
-`Vite` · `Tailwind CSS` · `Razor` · `HTML` · `CSS` · `Fetch API`
-
----
-
-## 🗄️ Database & Data
-
-<p>
-  <img src="https://skillicons.dev/icons?i=postgres,mysql,sqlite,redis,supabase" />
-</p>
-
-### Relational Databases
-
-`PostgreSQL` · `SQL Server` · `MySQL` · `SQLite` · `TiDB`
-
-### Data / Extensions
-
-`PostGIS` · `Supabase`
-
-### Cache / Search
-
-`Redis` · `Meilisearch`
-
-### ORM / Persistence
-
-`Entity Framework 6` · `Rails Active Record`
-
----
-
-## ☁️ Cloud & Infrastructure
-
-<p>
-  <img src="https://skillicons.dev/icons?i=docker,aws,azure,linux" />
-</p>
-
-`Docker` · `AWS` · `Azure` · `Linux` · `WSL`
-
-Experience / practice includes:
-
-`Amazon VPC` · `Amazon EKS` · `Azure OpenAI`
-
----
-
-## 🤖 AI / Machine Learning
-
-<p>
-  <img src="https://skillicons.dev/icons?i=python,pytorch" />
-</p>
-
-### Machine Learning
-
-`K-Means` · `KNN` · `Logistic Regression`  
-`Decision Tree` · `Random Forest`
-
-### Deep Learning
-
-`PyTorch` · `CNN` · `RNN` · `Transformer`
-
-### Generative AI
-
-`Azure OpenAI` · `LangChain`
-
----
-
-## 🧪 Testing & Automation
-
-`MSTest` · `Selenium` · `GitHub Actions`
-
-Areas of interest:
-
-`Unit Testing` · `Integration Testing` · `Test Automation` · `CI/CD`
-
----
-
-## 🔧 Development & Collaboration
-
-<p>
-  <img src="https://skillicons.dev/icons?i=git,github,visualstudio,vscode,eclipse" />
-</p>
-
-`Git` · `GitHub` · `Bitbucket`  
-`Visual Studio` · `VS Code` · `Eclipse`
-
-Development practices:
-
-`GitHub Issues` · `Feature Branches` · `Pull Requests` · `Code Review`
-
----
-
-# 🧭 Engineering Journey
-
-```mermaid
-flowchart LR
-    A["Application<br/>Development"]
-    --> B["Backend<br/>Engineering"]
-    --> C["Architecture<br/>& Database"]
-    --> D["Cloud &<br/>Infrastructure"]
-    --> E["Distributed<br/>Systems"]
-    --> F["AI-enabled<br/>Systems"]
-
-    style C fill:#d1fae5
-```
-
-My current focus is moving from simply implementing features toward understanding the larger engineering concerns around them.
-
-```text
-Feature Implementation
-        ↓
-Application Architecture
-        ↓
-Database & Persistence
-        ↓
-Testing & Reliability
-        ↓
-Performance
-        ↓
-Cloud Infrastructure
-        ↓
-Distributed Systems
-        ↓
-AI-enabled Systems
-```
-
----
-
-## 🌍 Global Experience
-
-> Learning, working, and adapting across different countries and cultures.
+# Global Experience
 
 | Country | Experience |
 |---|---|
-| 🇯🇵 **Japan** | Software engineering career · Japanese IT environment · Language & cultural immersion |
-| 🇩🇪 **Germany** | 1-month intensive AI training · Machine Learning / Deep Learning · Azure OpenAI · Hackathon |
+| 🇯🇵 **Japan** | Software engineering career · Japanese IT environment |
+| 🇩🇪 **Germany** | 1-month intensive AI training · Machine Learning, Deep Learning, Azure OpenAI · Hackathon winning team |
 | 🇺🇿 **Uzbekistan** | 1-week international internship · Cross-cultural professional experience |
-| 🇰🇷 **Korea** | Software engineering education · Team & personal development projects |
-| 🇷🇴 **Romania** | 1-month independent stay · Cultural immersion and international living experience |
+| 🇷🇴 **Romania** | 1-month independent stay · Romanian language learning · Experience adapting to everyday life in Europe |
+| 🇰🇷 **Korea** | Software engineering education · Team and personal development projects |
 
-These experiences have given me exposure to different **working, learning, and living environments** across Europe and Asia.
-
-They have strengthened my adaptability, cross-cultural communication, and ability to work in unfamiliar environments.
+These experiences have strengthened my adaptability and ability to learn and collaborate across different technical and cultural environments.
 
 ---
 
-# 🗣️ Languages
+# Languages
 
 | Language | Level |
 |---|---|
 | 🇰🇷 Korean | Native |
-| 🇯🇵 Japanese | Business · JLPT N1 |
-| 🇬🇧 English | Business · TOEIC Speaking AL|
-| 🇷🇴 Romanian | Basic |
+| 🇯🇵 Japanese | Professional working proficiency · JLPT N1 |
+| 🇬🇧 English | TOEIC Speaking AL |
+| 🇷🇴 Romanian | Beginner · Currently learning |
 
 ---
 
-# 📚 Currently Learning
+# Current Focus
 
-### Backend
-
-`ASP.NET` · `Architecture` · `Database` · `Async Programming`
-
-### Infrastructure
-
-`Docker` · `CI/CD` · `AWS` · `Cloud Architecture`
-
-### Computer Science
-
-`Algorithms` · `Linear Algebra` · `Optimization` · `Data Analysis`
-
-### AI
-
-`AI Agents` · `LLM Applications` · `AI-assisted Software Engineering`
+- Backend architecture and database design
+- Automated testing and CI
+- Reliability, observability, and performance
+- Cloud infrastructure fundamentals
+- Applied AI integrated with production-oriented software
 
 ---
 
-# 📈 Direction
+# Engineering Approach
 
-```mermaid
-flowchart TD
-    A["Backend Engineer"]
-    --> B["Strong Backend Fundamentals"]
-
-    B --> C["Architecture"]
-    B --> D["Database"]
-    B --> E["Testing"]
-    B --> F["Performance"]
-
-    C --> G["Cloud & Distributed Systems"]
-    D --> G
-    E --> G
-    F --> G
-
-    G --> H["AI-enabled Software Systems"]
-```
-
-My long-term technical direction is to combine strong backend fundamentals with cloud infrastructure and applied AI.
-
----
-
-# 💡 Engineering Philosophy
-
-I prefer learning technologies by integrating them into real applications rather than studying them only in isolation.
-
-When introducing a new technology or architectural pattern, I try to answer:
+When introducing a technology or architectural pattern, I try to answer:
 
 > **Why is it needed?**  
 > **What problem does it solve?**  
 > **Where should it belong?**  
 > **What trade-offs does it introduce?**
 
-I value incremental improvement:
+I prefer small, reviewable improvements over large unexplained rewrites.
 
-```text
-Build
-  ↓
-Find a limitation
-  ↓
-Understand the problem
-  ↓
-Introduce a solution
-  ↓
-Test
-  ↓
-Refactor
-  ↓
-Repeat
-```
-
-My goal is to grow into an engineer who understands both **implementation details and the larger systems around them**.
+My goal is to become an engineer who can connect implementation details with the larger system, the development process, and the user problem behind it.
 
 ---
 
 <div align="center">
 
-### Thanks for visiting 👋
-
-**Backend · Cloud · AI · System Design**
+**Backend Engineering · Reliability · Global Collaboration · Applied AI**
 
 </div>
