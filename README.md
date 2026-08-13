@@ -137,3 +137,251 @@ Playback ends
 Reaction video is uploaded
         ↓
 Original video is marked as read
+```
+
+### My Contributions
+
+- Designed the interaction between playback and automatic reaction recording
+- Structured the Servlet → Logic → DAO processing flow
+- Designed unread/read video-state management
+- Implemented and reviewed parts of the recording/upload workflow
+- Participated in screen, server, and database design
+- Coordinated specifications and implementation decisions within the team
+
+Because this was a team project, the repository clearly distinguishes my contributions from the work of the full team.
+
+### Stack
+
+`Java 21` · `Jakarta Servlet` · `JSP`  
+`JavaScript` · `MySQL 8` · `Apache Tomcat 10`
+
+➡️ [Explore Tsunagaroom](https://github.com/lemonwasp/tsunagaroom)
+
+---
+
+## 🤖 AI Lead Conversion Platform
+
+> Reconstructing a 2024 AI hackathon prototype as a privacy-safe and reproducible software project.
+
+The original prototype was developed during an intensive AI program in Ulm, Germany and received a hackathon award as a team project.
+
+The current repository is an independent reconstruction using synthetic CRM data. It does not contain the original corporate dataset, proprietary code, internal documents, or credentials.
+
+### Planned System
+
+```text
+Synthetic CRM Data
+        ↓
+Feature Pipeline
+        ↓
+ML Prediction API
+        ↓
+Explanation & Evidence
+        ↓
+React Dashboard
+        ↓
+Human-reviewed LLM Draft
+```
+
+### Engineering Goals
+
+- Leakage-safe machine-learning evaluation
+- Reproducible data and feature pipelines
+- FastAPI prediction and explanation endpoints
+- React and TypeScript dashboard
+- Human-reviewed LLM-assisted outreach
+- Automated tests, Docker, and GitHub Actions
+
+🚧 **Current phase:** repository and safety foundation, including a minimal API health endpoint and automated test.
+
+➡️ [Follow the Reconstruction](https://github.com/lemonwasp/ai-lead-conversion-platform)
+
+---
+
+# 🧰 Technology Landscape
+
+> Technologies used across personal projects, team development, professional practice, and international training.
+
+## ⭐ Core Technologies
+
+<p>
+  <img src="https://skillicons.dev/icons?i=cs,dotnet,java,ts,js,postgres,mysql" />
+</p>
+
+`C#` · `.NET` · `Java` · `TypeScript` · `JavaScript` · `SQL`
+
+---
+
+## ⚙️ Backend & APIs
+
+<p>
+  <img src="https://skillicons.dev/icons?i=dotnet,nestjs,fastapi,rails,nodejs" />
+</p>
+
+**Primary**
+
+`ASP.NET MVC 5` · `.NET Framework 4.8` · `Entity Framework 6`  
+`JSP` · `Jakarta Servlet`
+
+**Additional Project Experience**
+
+`Node.js` · `NestJS` · `FastAPI` · `Ruby on Rails`
+
+---
+
+## 🎨 Frontend
+
+<p>
+  <img src="https://skillicons.dev/icons?i=vue,react,nextjs,vite,tailwind,html,css" />
+</p>
+
+`Vue.js` · `React` · `Next.js` · `TypeScript`  
+`Vite` · `Tailwind CSS` · `Razor` · `HTML` · `CSS`
+
+---
+
+## 🗄️ Database & Data
+
+<p>
+  <img src="https://skillicons.dev/icons?i=postgres,mysql,sqlite,redis,supabase" />
+</p>
+
+`SQL Server` · `PostgreSQL` · `PostGIS`  
+`MySQL` · `SQLite` · `TiDB` · `Supabase`
+
+Additional experience:
+
+`Redis` · `Meilisearch` · `Entity Framework` · `Active Record`
+
+---
+
+## ☁️ Infrastructure & Quality
+
+<p>
+  <img src="https://skillicons.dev/icons?i=docker,aws,azure,linux,git,github" />
+</p>
+
+`Docker` · `AWS` · `Azure` · `Linux`  
+`MSTest` · `Selenium` · `GitHub Actions`
+
+Development practices:
+
+`GitHub Issues` · `Feature Branches` · `Pull Requests`  
+`Code Review` · `Incremental Refactoring`
+
+---
+
+## 🤖 AI & Machine Learning
+
+<p>
+  <img src="https://skillicons.dev/icons?i=python,pytorch" />
+</p>
+
+**Machine Learning**
+
+`K-Means` · `KNN` · `Logistic Regression`  
+`Decision Tree` · `Random Forest`
+
+**Deep Learning & Generative AI**
+
+`PyTorch` · `CNN` · `RNN` · `Transformer`  
+`Azure OpenAI` · `LangChain`
+
+---
+
+# 🧭 Engineering Journey
+
+```mermaid
+flowchart LR
+    A["Build Features"]
+    --> B["Design Boundaries"]
+    --> C["Improve Reliability"]
+    --> D["Scale with Cloud"]
+    --> E["Apply AI"]
+
+    style C fill:#d1fae5
+```
+
+My current focus is moving from simply implementing features toward understanding the larger engineering concerns around them.
+
+```text
+Feature Implementation
+        ↓
+Application Architecture
+        ↓
+Database & Persistence
+        ↓
+Testing & Reliability
+        ↓
+Cloud Infrastructure
+        ↓
+AI-enabled Systems
+```
+
+---
+
+# 🌍 Global Experience
+
+> Learning, working, and adapting across different countries and cultures.
+
+| Country | Experience |
+|---|---|
+| 🇯🇵 **Japan** | Software engineering career · Japanese IT environment |
+| 🇩🇪 **Germany** | 1-month intensive AI training · ML, Deep Learning, Azure OpenAI · Hackathon winning team |
+| 🇺🇿 **Uzbekistan** | 1-week international internship · Cross-cultural professional experience |
+| 🇷🇴 **Romania** | 1-month independent stay · Romanian language learning · Everyday life in a European environment |
+| 🇰🇷 **Korea** | Software engineering education · Team and personal development projects |
+
+These experiences have strengthened my adaptability, cross-cultural communication, and ability to work in unfamiliar environments.
+
+---
+
+# 🗣️ Languages
+
+| Language | Level |
+|---|---|
+| 🇰🇷 Korean | Native |
+| 🇯🇵 Japanese | Professional working proficiency · JLPT N1 |
+| 🇬🇧 English | TOEIC Speaking AL |
+| 🇷🇴 Romanian | Beginner · Currently learning |
+
+---
+
+# 💡 Engineering Philosophy
+
+I prefer learning technologies by integrating them into real applications rather than studying them only in isolation.
+
+When introducing a new technology or architectural pattern, I try to answer:
+
+> **Why is it needed?**  
+> **What problem does it solve?**  
+> **Where should it belong?**  
+> **What trade-offs does it introduce?**
+
+I value incremental improvement:
+
+```text
+Build
+  ↓
+Find a limitation
+  ↓
+Understand the problem
+  ↓
+Introduce a solution
+  ↓
+Test and review
+  ↓
+Repeat
+```
+
+My goal is to grow into an engineer who understands both **implementation details and the larger systems around them**.
+
+---
+
+<div align="center">
+
+### Thanks for visiting 👋
+
+**Backend · Reliability · Cloud · Applied AI · Global Collaboration**
+
+</div>
