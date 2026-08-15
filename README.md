@@ -113,6 +113,33 @@ Development trail:
 
 ---
 
+## 🍽️ Let Eat Go
+
+> Connecting people through shared meals with a multi-service social dining platform.
+
+Let Eat Go is a four-person team project organized across three repositories: a **Next.js web client**, **NestJS backend API**, and **FastAPI AI service**.
+
+### Engineering Scope
+
+* Social dining discovery, hosting, and participation
+* Google and Kakao OAuth authentication
+* Kakao Maps-based event exploration
+* Socket.IO real-time chat
+* Albums, comments, likes, and reviews
+* DistilBERT-based inappropriate-text classification
+* Docker and GitHub Actions-based AWS deployment
+
+### Stack
+
+`Next.js` · `TypeScript` · `NestJS` · `PostgreSQL` · `PostGIS`
+`Socket.IO` · `FastAPI` · `DistilBERT` · `Docker` · `AWS`
+
+Because this was a team project, the organization page documents the architecture, repository responsibilities, contributors, and current portfolio reconstruction status.
+
+➡️ [Explore Let Eat Go](https://github.com/YJU-5)
+
+---
+
 ## 👥 Tsunagaroom
 
 > Helping seniors and their families stay connected through asynchronous video communication.
