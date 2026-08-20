@@ -376,32 +376,9 @@ These experiences have strengthened my adaptability, cross-cultural communicatio
 
 # 💡 Engineering Philosophy
 
-I prefer learning technologies by integrating them into real applications rather than studying them only in isolation.
+I learn best by improving real applications through small, reviewable changes. When introducing a technology or pattern, I focus on **why it is needed, what problem it solves, where it belongs, and what trade-offs it introduces**.
 
-When introducing a new technology or architectural pattern, I try to answer:
-
-> **Why is it needed?**  
-> **What problem does it solve?**  
-> **Where should it belong?**  
-> **What trade-offs does it introduce?**
-
-I value incremental improvement:
-
-```text
-Build
-  ↓
-Find a limitation
-  ↓
-Understand the problem
-  ↓
-Introduce a solution
-  ↓
-Test and review
-  ↓
-Repeat
-```
-
-My goal is to grow into an engineer who understands both **implementation details and the larger systems around them**.
+My goal is to understand both **implementation details and the larger systems around them**.
 
 ---
 
