@@ -8,10 +8,6 @@
 
 <br>
 
-<p>
-  <img src="https://skillicons.dev/icons?i=cs,dotnet,java,ts,python" />
-</p>
-
 > Building systems, understanding their structure, and improving them step by step.
 
 </div>
