@@ -1,19 +1,18 @@
 <div align="center">
 
-# Hi, I'm Taegwan Hong 👋
+# Taegwan Hong
 
 ### Backend Engineer based in Japan 🇯🇵
 
-**Architecture · Data · Reliability · Automation**
+**Backend Architecture · Data · Reliability · Automation**
 
 <br>
 
-![C#](https://img.shields.io/badge/C%23-512BD4?style=flat-square\&logo=dotnet\&logoColor=white)
-![.NET](https://img.shields.io/badge/.NET-512BD4?style=flat-square\&logo=dotnet\&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square\&logo=typescript\&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square\&logo=python\&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-336791?style=flat-square\&logo=postgresql\&logoColor=white)
+<p>
+  <img src="https://skillicons.dev/icons?i=cs,dotnet,java,ts,python" />
+</p>
+
+> Building systems, understanding their structure, and improving them step by step.
 
 </div>
 
@@ -23,44 +22,51 @@
 
 Backend-focused software engineer interested in understanding not only **how software works**, but **why systems are designed the way they are**.
 
-I improve real applications through incremental, reviewable changes while deepening my understanding of architecture, databases, testing, reliability, and infrastructure.
+I learn through real applications — introducing architecture, persistence, testing, automation, and infrastructure as the system grows.
 
-|                       |                                             |
-| --------------------- | ------------------------------------------- |
-| 📍 **Based in**       | Japan                                       |
-| 🔧 **Focus**          | Backend · Architecture · Data · Reliability |
-| 🚀 **Growing Toward** | Cloud · Distributed Systems · Applied AI    |
-| 🌍 **Languages**      | Korean · Japanese · English · Romanian      |
+**Currently:** Backend Engineering → Reliability → Cloud → Applied AI
 
 ---
 
-# 🚀 Featured Projects
+# 🚀 Featured Engineering
 
 ## 🏗️ Dotnet Backend Study
 
-> Turning a basic ASP.NET MVC CRUD application into a maintainable backend system.
+> From basic CRUD to maintainable backend architecture.
 
-|               |                                                    |
-| ------------- | -------------------------------------------------- |
-| 🎯 **Focus**  | Architecture · Persistence · Testing · Reliability |
-| ✅ **Current** | Server-side pagination completed                   |
-| ➡️ **Next**   | Search / Filtering                                 |
-| 🛠️ **Stack** | C# · ASP.NET MVC 5 · EF6 · SQL Server · Vue.js     |
+`Architecture` · `Persistence` · `Testing` · `Reliability`
 
-### Key Improvements
+```text
+Basic MVC CRUD
+      ↓
+Service Layer
+      ↓
+Repository + DI
+      ↓
+Database Persistence
+      ↓
+Validation + Error Handling
+      ↓
+Testing + Logging
+      ↓
+Server-side Pagination
+```
+
+### Engineering Improvements
 
 * Controller → Service → Repository architecture
-* Repository abstraction and Unity Dependency Injection
+* Repository abstraction with Unity Dependency Injection
 * Entity Framework 6 + SQL Server LocalDB
 * Code First Migrations
 * DTO / Entity separation with AutoMapper
 * Service-layer validation
-* Global HTTP exception handling
+* Centralized HTTP exception handling
 * log4net application logging
 * MSTest service-layer unit tests
 * Server-side pagination with boundary handling
 
-**Engineering trail:**
+**Current:** Pagination ✅ → **Next:** Search / Filtering
+
 [Issue #26](https://github.com/lemonwasp/dotnet-study/issues/26) → [PR #27](https://github.com/lemonwasp/dotnet-study/pull/27)
 
 ➡️ [Explore Dotnet Backend Study](https://github.com/lemonwasp/dotnet-study)
@@ -71,37 +77,32 @@ I improve real applications through incremental, reviewable changes while deepen
 
 > Asynchronous video communication for seniors and their families.
 
-|               |                                                |
-| ------------- | ---------------------------------------------- |
-| 👥 **Type**   | 8-member Team Project                          |
-| 🎯 **Role**   | Development / System Design                    |
-| 🧩 **Scope**  | Processing Flow · Specifications · Test Design |
-| 🛠️ **Stack** | Java 21 · JSP · Servlet · MySQL · JavaScript   |
-
-### My Contributions
-
-* Designed application and server-side processing flows
-* Structured Servlet → Logic → DAO responsibilities
-* Designed video playback ↔ automatic reaction-recording behavior
-* Defined unread / read video-state processing
-* Created development specifications for implementation
-* Designed functional, boundary, and exception test cases
-* Reviewed implementation against specifications
-* Coordinated design and specification decisions within the team
+**8-member Team Project · System / Development Design**
 
 ```text
 Requirements
      ↓
 Development Design
      ↓
-Specification
+Processing Specification
      ↓
 Implementation
      ↓
-Test Design
+Test Case Design
      ↓
 Verification
 ```
+
+### My Role
+
+* Designed application and server-side processing flows
+* Structured Servlet → Logic → DAO responsibilities
+* Designed video playback ↔ automatic reaction recording
+* Defined unread / read video-state behavior
+* Created development specifications for implementation
+* Designed functional, boundary, and exception test cases
+* Reviewed implementation against specifications
+* Coordinated design and specification decisions within the team
 
 The public repository also separates credentials and runtime-generated data from source control through environment-based configuration and repository hygiene practices.
 
@@ -111,43 +112,38 @@ The public repository also separates credentials and runtime-generated data from
 
 ## 🍽️ Let Eat Go
 
-> A social dining platform connecting people through shared meals and local events.
+> Social dining platform connecting people through shared meals and local events.
 
-|                       |                                          |
-| --------------------- | ---------------------------------------- |
-| 👥 **Type**           | 4-member Team Project                    |
-| 🎯 **Focus**          | Backend · Full-stack Integration · Cloud |
-| 🧩 **Architecture**   | Next.js · NestJS · FastAPI · PostgreSQL  |
-| ☁️ **Infrastructure** | Docker · AWS ECS/ECR/S3 · GitHub Actions |
-
-### Platform
+**4-member Team Project · Backend / Full-stack Integration**
 
 ```text
-Next.js Web Client
-        ↓ REST / JWT
-NestJS Backend API
-   ↙       ↓       ↘
-PostgreSQL  S3   FastAPI AI
-        ↕
-    Socket.IO
+                 Next.js
+                    │
+               REST / JWT
+                    ↓
+                  NestJS
+          ┌─────────┼─────────┐
+          ↓         ↓         ↓
+     PostgreSQL   AWS S3   FastAPI AI
+          ↑
+      Socket.IO
 ```
 
-### My Contributions
+### My Backend Contributions
 
-* Contributed to the initial entity design
-* Worked on authentication flow
-* Implemented parts of the album backend
-* Worked on chat-room entity relationships
-* Fixed Comment DTO behavior
-* Improved S3 image deletion behavior
+* Initial entity design
+* Authentication flow
+* Album backend
+* Chat-room entity relationships
+* Comment DTO fixes
+* S3 image deletion behavior
 
 ### Engineering Environment
 
-`JWT Authentication` · `Google / Kakao OAuth` · `Socket.IO`
-`TypeORM` · `PostgreSQL` · `AWS S3` · `Swagger`
-`Docker` · `GitHub Actions` · `AWS ECS / ECR`
+`JWT / OAuth` · `Socket.IO` · `TypeORM` · `PostgreSQL`
+`AWS S3` · `Swagger` · `Docker` · `GitHub Actions` · `AWS ECS / ECR`
 
-The project uses separate **frontend, backend, and AI-service repositories** with an issue / PR-based team workflow.
+Frontend, backend, and AI services are maintained as separate repositories using an issue / PR-based workflow.
 
 ➡️ [Frontend](https://github.com/YJU-5/project-leteatgo-nextjs-repo)
 ➡️ [Backend API](https://github.com/YJU-5/project-leteatgo-nestjs-repo)
@@ -158,30 +154,34 @@ The project uses separate **frontend, backend, and AI-service repositories** wit
 
 > Privacy-safe reconstruction of a 2024 AI hackathon prototype.
 
-|                |                                                    |
-| -------------- | -------------------------------------------------- |
-| 🎯 **Focus**   | Reproducible ML · Privacy · AI-assisted Workflows  |
-| 🚧 **Current** | Calibrated Synthetic Data Foundation               |
-| ➡️ **Next**    | Leakage-safe Preprocessing · EDA · Model Baselines |
-| 🛠️ **Stack**  | Python · FastAPI · ML · React · TypeScript         |
+`Reproducible ML` · `Privacy` · `Data Engineering` · `AI-assisted Workflows`
+
+```text
+Synthetic Data ✅
+      ↓
+Leakage-safe Pipeline
+      ↓
+EDA & Model Baselines
+      ↓
+Prediction / Explanation API
+      ↓
+React Dashboard
+      ↓
+Human-reviewed LLM Assistance
+```
 
 ### Current Progress
 
 * Documented public / private data boundaries
-* Added a FastAPI health endpoint and automated test
+* Added FastAPI health endpoint and automated test
 * Reconstructed historical lead / note data relationships
-* Documented the public aggregate CRM profile
-* Built a privacy-safe synthetic generator calibrated to observed aggregate behavior
+* Documented public aggregate CRM behavior
+* Built a privacy-safe synthetic generator calibrated to observed aggregates
 
-### Engineering Direction
+**Current:** Calibrated synthetic data foundation
+**Next:** Leakage-safe preprocessing · EDA · Model baselines
 
-`Leakage-safe ML Evaluation`
-`Reproducible Data Pipelines`
-`Prediction & Explanation API`
-`React Dashboard`
-`Human-reviewed LLM Assistance`
-
-The reconstruction uses synthetic data only and keeps the historical team project clearly separated from the current public implementation.
+The reconstruction uses synthetic data only and clearly separates the historical team project from the current public implementation.
 
 ➡️ [Explore AI Lead Conversion Platform](https://github.com/lemonwasp/ai-lead-conversion-platform)
 
@@ -189,7 +189,7 @@ The reconstruction uses synthetic data only and keeps the historical team projec
 
 # 🧰 Technology
 
-### Backend
+### Languages & Backend
 
 <p>
   <img src="https://skillicons.dev/icons?i=cs,dotnet,java,ts,python,nestjs,fastapi,rails" />
@@ -202,21 +202,21 @@ The reconstruction uses synthetic data only and keeps the historical team projec
   <img src="https://img.shields.io/badge/TypeORM-FE0803?style=flat-square&logo=typeorm&logoColor=white" />
 </p>
 
-### Data
-
-<p>
-  <img src="https://skillicons.dev/icons?i=postgres,mysql,sqlite,redis,supabase" />
-</p>
-
-<p>
-  <img src="https://img.shields.io/badge/SQL_Server-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white" />
-  <img src="https://img.shields.io/badge/PostGIS-336791?style=flat-square&logo=postgresql&logoColor=white" />
-</p>
-
 ### Frontend
 
 <p>
   <img src="https://skillicons.dev/icons?i=vue,react,nextjs,vite,tailwind,html,css" />
+</p>
+
+### Data
+
+<p>
+  <img src="https://skillicons.dev/icons?i=postgres,mysql,sqlite,supabase" />
+</p>
+
+<p>
+  <img src="https://img.shields.io/badge/SQL_Server-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white" />
+  <img src="https://img.shields.io/badge/PostGIS-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
 </p>
 
 ### Infrastructure & Quality
@@ -234,16 +234,14 @@ The reconstruction uses synthetic data only and keeps the historical team projec
 ### AI / ML
 
 <p>
-  <img src="https://skillicons.dev/icons?i=pytorch,python" />
+  <img src="https://skillicons.dev/icons?i=pytorch" />
 </p>
 
 <p>
-  <img src="https://img.shields.io/badge/Transformers-FFD21E?style=flat-square&logo=huggingface&logoColor=black" />
-  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square" />
+  <img src="https://img.shields.io/badge/Hugging_Face_Transformers-FFD21E?style=flat-square&logo=huggingface&logoColor=black" />
   <img src="https://img.shields.io/badge/Azure_OpenAI-0078D4?style=flat-square&logo=microsoftazure&logoColor=white" />
-  <img src="https://img.shields.io/badge/Random_Forest-4B8BBE?style=flat-square" />
+  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square" />
 </p>
-
 
 ---
 
@@ -258,37 +256,25 @@ flowchart LR
     --> E["Apply AI"]
 ```
 
-My current direction is moving from feature implementation toward understanding the **architecture, data, reliability, and infrastructure behind software systems**.
+I am moving from feature implementation toward understanding the **architecture, data, reliability, and infrastructure behind software systems**.
 
 ---
 
-# 🌍 Global Experience
+## 🌍 Beyond Code
 
-| Country             | Experience                                               |
-| ------------------- | -------------------------------------------------------- |
-| 🇯🇵 **Japan**      | Software engineering career                              |
-| 🇩🇪 **Germany**    | Intensive AI training · ML/DL · Azure OpenAI · Hackathon |
-| 🇺🇿 **Uzbekistan** | International internship                                 |
-| 🇷🇴 **Romania**    | Independent stay · Language learning                     |
-| 🇰🇷 **Korea**      | Software engineering education and team projects         |
+**🇰🇷 Korea · 🇯🇵 Japan · 🇩🇪 Germany · 🇺🇿 Uzbekistan · 🇷🇴 Romania**
 
----
+**Korean** — Native
+**Japanese** — JLPT N1
+**English** — TOEIC Speaking AL
+**Romanian** — Beginner
 
-# 🗣️ Languages
+<br>
 
-| Language      | Level                  |
-| ------------- | ---------------------- |
-| 🇰🇷 Korean   | Native                 |
-| 🇯🇵 Japanese | Professional · JLPT N1 |
-| 🇬🇧 English  | TOEIC Speaking AL      |
-| 🇷🇴 Romanian | Beginner               |
+> **Build → Understand → Improve → Test → Review → Repeat**
 
----
+<div align="center">
 
-# 💡 Engineering Philosophy
+**Backend · Reliability · Cloud · Applied AI**
 
-**Build → Find limitations → Understand → Improve → Test → Review → Repeat**
-
-I prefer learning technologies by applying them to real systems and understanding **why a technology, architecture, or engineering practice is needed**.
-
-My goal is to understand both **implementation details and the larger systems around them**.
+</div>
