@@ -288,7 +288,7 @@ My current focus is moving from simply implementing features toward understandin
 | 🇩🇪 **Germany**    | 1-month intensive AI training · ML, Deep Learning, Azure OpenAI · Hackathon winning team        |
 | 🇺🇿 **Uzbekistan** | 1-week international internship · Cross-cultural professional experience                        |
 | 🇷🇴 **Romania**    | 1-month independent stay · Romanian language learning · Everyday life in a European environment |
-| 🇰🇷 **Korea**      | Software engineering education · Team and personal development projects                         |
+| 🇰🇷 **Korea**      | Korean background · Software engineering education · Team and personal development projects     |
 
 These experiences have strengthened my adaptability, cross-cultural communication, and ability to work in unfamiliar environments.
 
