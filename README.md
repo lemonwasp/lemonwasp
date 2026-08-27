@@ -191,33 +191,41 @@ The reconstruction uses synthetic data only and keeps the historical team projec
 
 ### Backend
 
-`C#` · `.NET` · `Java` · `TypeScript` · `Python`
-
-`ASP.NET MVC` · `Entity Framework` · `Jakarta Servlet`
-`NestJS` · `FastAPI` · `Ruby on Rails`
+<p>
+  <img src="https://skillicons.dev/icons?i=cs,dotnet,java,ts,python,nestjs,fastapi,rails" />
+</p>
 
 ### Data
 
-`SQL Server` · `PostgreSQL` · `MySQL` · `SQLite`
-`TypeORM` · `Entity Framework` · `PostGIS`
+<p>
+  <img src="https://skillicons.dev/icons?i=postgres,mysql,sqlite" />
+</p>
+
+`SQL Server` · `PostGIS` · `Entity Framework` · `TypeORM`
 
 ### Frontend
 
-`Vue.js` · `React` · `Next.js` · `Vite` · `Tailwind CSS`
+<p>
+  <img src="https://skillicons.dev/icons?i=vue,react,nextjs,vite,tailwind" />
+</p>
 
 ### Infrastructure & Quality
 
-`Docker` · `AWS` · `Azure` · `Linux` · `GitHub Actions`
+<p>
+  <img src="https://skillicons.dev/icons?i=docker,aws,azure,linux,git,github" />
+</p>
 
-`MSTest` · `Selenium` · `Pull Requests`
-`Code Review` · `Incremental Refactoring`
+`GitHub Actions` · `MSTest` · `Selenium` · `Code Review`
 
 ### AI / ML
 
-`PyTorch` · `Transformers` · `CNN` · `RNN`
+<p>
+  <img src="https://skillicons.dev/icons?i=pytorch" />
+</p>
 
-`K-Means` · `KNN` · `Logistic Regression`
-`Random Forest` · `Azure OpenAI` · `LangChain`
+`Transformers` · `CNN` · `RNN` · `Random Forest`
+`Azure OpenAI` · `LangChain`
+
 
 ---
 
