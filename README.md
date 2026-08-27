@@ -4,7 +4,6 @@
 
 ### Backend Engineer based in Japan 🇯🇵
 
-Building backend systems with a focus on
 **Architecture · Data · Reliability · Automation**
 
 <br>
@@ -20,19 +19,18 @@ Building backend systems with a focus on
 
 ---
 
-## 👨‍💻 About Me
+## 👨‍💻 About
 
-Backend-focused software engineer interested in understanding not only how software works, but **why systems are designed the way they are**.
+Backend-focused software engineer interested in understanding not only **how software works**, but **why systems are designed the way they are**.
 
-I improve real applications through small, reviewable changes while deepening my understanding of architecture, databases, testing, reliability, and automation.
+I improve real applications through incremental, reviewable changes while deepening my understanding of architecture, databases, testing, reliability, and infrastructure.
 
-|                       |                                                  |
-| --------------------- | ------------------------------------------------ |
-| 📍 **Based in**       | Japan                                            |
-| 🧭 **Direction**      | Backend Engineering                              |
-| 🔧 **Focus**          | Architecture · Databases · Testing · Reliability |
-| 🚀 **Growing Toward** | Cloud · Distributed Systems · Applied AI         |
-| 🌍 **Languages**      | Korean · Japanese · English · Romanian           |
+|                       |                                             |
+| --------------------- | ------------------------------------------- |
+| 📍 **Based in**       | Japan                                       |
+| 🔧 **Focus**          | Backend · Architecture · Data · Reliability |
+| 🚀 **Growing Toward** | Cloud · Distributed Systems · Applied AI    |
+| 🌍 **Languages**      | Korean · Japanese · English · Romanian      |
 
 ---
 
@@ -40,33 +38,30 @@ I improve real applications through small, reviewable changes while deepening my
 
 ## 🏗️ Dotnet Backend Study
 
-> Evolving a simple ASP.NET MVC CRUD application into a structured and maintainable backend system.
+> Turning a basic ASP.NET MVC CRUD application into a maintainable backend system.
 
-Incrementally improving an existing application to understand backend architecture and infrastructure through practical implementation.
+|               |                                                    |
+| ------------- | -------------------------------------------------- |
+| 🎯 **Focus**  | Architecture · Persistence · Testing · Reliability |
+| ✅ **Current** | Server-side pagination completed                   |
+| ➡️ **Next**   | Search / Filtering                                 |
+| 🛠️ **Stack** | C# · ASP.NET MVC 5 · EF6 · SQL Server · Vue.js     |
 
-### Engineering Focus
-
-`Architecture` · `Persistence` · `Testing` · `Error Handling` · `Maintainability`
-
-### Implemented
+### Key Improvements
 
 * Controller → Service → Repository architecture
 * Repository abstraction and Unity Dependency Injection
-* Entity Framework 6 · SQL Server LocalDB · Code First Migrations
-* DTO / Entity separation and AutoMapper
-* Service-layer validation and global exception handling
-* Application logging with log4net
+* Entity Framework 6 + SQL Server LocalDB
+* Code First Migrations
+* DTO / Entity separation with AutoMapper
+* Service-layer validation
+* Global HTTP exception handling
+* log4net application logging
 * MSTest service-layer unit tests
-* Server-side pagination with boundary validation
-* Vue.js frontend integration
+* Server-side pagination with boundary handling
 
-✅ **Current:** Server-side pagination completed
-➡️ **Next:** Search / Filtering
-
-Development trail:
+**Engineering trail:**
 [Issue #26](https://github.com/lemonwasp/dotnet-study/issues/26) → [PR #27](https://github.com/lemonwasp/dotnet-study/pull/27)
-
-`C#` · `ASP.NET MVC 5` · `.NET Framework 4.8` · `EF6` · `SQL Server` · `Vue.js` · `MSTest`
 
 ➡️ [Explore Dotnet Backend Study](https://github.com/lemonwasp/dotnet-study)
 
@@ -74,70 +69,137 @@ Development trail:
 
 ## 👥 Tsunagaroom
 
-> Helping seniors and their families stay connected through asynchronous video communication.
+> Asynchronous video communication for seniors and their families.
 
-A Java/JSP team project that delivers family videos to senior users and automatically records their reactions during playback.
+|               |                                                |
+| ------------- | ---------------------------------------------- |
+| 👥 **Type**   | 8-member Team Project                          |
+| 🎯 **Role**   | Development / System Design                    |
+| 🧩 **Scope**  | Processing Flow · Specifications · Test Design |
+| 🛠️ **Stack** | Java 21 · JSP · Servlet · MySQL · JavaScript   |
 
 ### My Contributions
 
-As a **design-focused member of the team**, I was primarily responsible for translating requirements into implementable system behavior and testable specifications.
-
-* Designed application flows and server-side processing
-* Structured the Servlet → Logic → DAO architecture
-* Designed the video playback and automatic reaction-recording workflow
-* Defined unread/read video-state behavior and processing rules
+* Designed application and server-side processing flows
+* Structured Servlet → Logic → DAO responsibilities
+* Designed video playback ↔ automatic reaction-recording behavior
+* Defined unread / read video-state processing
 * Created development specifications for implementation
-* Designed test cases based on functional and boundary scenarios
-* Reviewed implementation against the agreed design and specifications
-* Coordinated design decisions and specification changes within the team
+* Designed functional, boundary, and exception test cases
+* Reviewed implementation against specifications
+* Coordinated design and specification decisions within the team
 
+```text
+Requirements
+     ↓
+Development Design
+     ↓
+Specification
+     ↓
+Implementation
+     ↓
+Test Design
+     ↓
+Verification
+```
 
-The public repository also separates runtime data and secrets from source control through environment-based configuration and repository hygiene practices.
-
-`Java 21` · `Jakarta Servlet` · `JSP` · `JavaScript` · `MySQL 8` · `Tomcat 10`
+The public repository also separates credentials and runtime-generated data from source control through environment-based configuration and repository hygiene practices.
 
 ➡️ [Explore Tsunagaroom](https://github.com/lemonwasp/tsunagaroom)
 
 ---
 
+## 🍽️ Let Eat Go
+
+> A social dining platform connecting people through shared meals and local events.
+
+|                       |                                          |
+| --------------------- | ---------------------------------------- |
+| 👥 **Type**           | 4-member Team Project                    |
+| 🎯 **Focus**          | Backend · Full-stack Integration · Cloud |
+| 🧩 **Architecture**   | Next.js · NestJS · FastAPI · PostgreSQL  |
+| ☁️ **Infrastructure** | Docker · AWS ECS/ECR/S3 · GitHub Actions |
+
+### Platform
+
+```text
+Next.js Web Client
+        ↓ REST / JWT
+NestJS Backend API
+   ↙       ↓       ↘
+PostgreSQL  S3   FastAPI AI
+        ↕
+    Socket.IO
+```
+
+### My Contributions
+
+* Contributed to the initial entity design
+* Worked on authentication flow
+* Implemented parts of the album backend
+* Worked on chat-room entity relationships
+* Fixed Comment DTO behavior
+* Improved S3 image deletion behavior
+
+### Engineering Environment
+
+`JWT Authentication` · `Google / Kakao OAuth` · `Socket.IO`
+`TypeORM` · `PostgreSQL` · `AWS S3` · `Swagger`
+`Docker` · `GitHub Actions` · `AWS ECS / ECR`
+
+The project uses separate **frontend, backend, and AI-service repositories** with an issue / PR-based team workflow.
+
+➡️ [Frontend](https://github.com/YJU-5/project-leteatgo-nextjs-repo)
+➡️ [Backend API](https://github.com/YJU-5/project-leteatgo-nestjs-repo)
+
+---
+
 ## 🤖 AI Lead Conversion Platform
 
-> Reconstructing a 2024 AI hackathon prototype as a privacy-safe and reproducible software project.
+> Privacy-safe reconstruction of a 2024 AI hackathon prototype.
 
-An independent reconstruction using synthetic CRM data, focused on reproducible machine-learning workflows, privacy boundaries, and human-reviewed AI-assisted systems.
+|                |                                                    |
+| -------------- | -------------------------------------------------- |
+| 🎯 **Focus**   | Reproducible ML · Privacy · AI-assisted Workflows  |
+| 🚧 **Current** | Calibrated Synthetic Data Foundation               |
+| ➡️ **Next**    | Leakage-safe Preprocessing · EDA · Model Baselines |
+| 🛠️ **Stack**  | Python · FastAPI · ML · React · TypeScript         |
 
 ### Current Progress
 
-* Documented public/private data boundaries
-* Added a minimal FastAPI health endpoint and automated test
-* Reconstructed historical lead/note data shapes and join relationships
+* Documented public / private data boundaries
+* Added a FastAPI health endpoint and automated test
+* Reconstructed historical lead / note data relationships
 * Documented the public aggregate CRM profile
-* Built a privacy-safe synthetic data generator calibrated to observed aggregate behavior
-
-🚧 **Current:** Phase 1 — calibrated synthetic data foundation
-➡️ **Next:** leakage-safe preprocessing · reproducible EDA · model baselines
+* Built a privacy-safe synthetic generator calibrated to observed aggregate behavior
 
 ### Engineering Direction
 
-* Leakage-safe ML evaluation
-* Reproducible data and feature pipelines
-* FastAPI prediction and explanation endpoints
-* React + TypeScript dashboard
-* Human-reviewed LLM-assisted outreach
-* Docker · automated tests · CI
+`Leakage-safe ML Evaluation`
+`Reproducible Data Pipelines`
+`Prediction & Explanation API`
+`React Dashboard`
+`Human-reviewed LLM Assistance`
 
-➡️ [Follow the Reconstruction](https://github.com/lemonwasp/ai-lead-conversion-platform)
+The reconstruction uses synthetic data only and keeps the historical team project clearly separated from the current public implementation.
+
+➡️ [Explore AI Lead Conversion Platform](https://github.com/lemonwasp/ai-lead-conversion-platform)
 
 ---
 
 # 🧰 Technology
 
-### Backend & Data
+### Backend
 
 `C#` · `.NET` · `Java` · `TypeScript` · `Python`
+
 `ASP.NET MVC` · `Entity Framework` · `Jakarta Servlet`
 `NestJS` · `FastAPI` · `Ruby on Rails`
+
+### Data
+
 `SQL Server` · `PostgreSQL` · `MySQL` · `SQLite`
+`TypeORM` · `Entity Framework` · `PostGIS`
 
 ### Frontend
 
@@ -145,44 +207,44 @@ An independent reconstruction using synthetic CRM data, focused on reproducible 
 
 ### Infrastructure & Quality
 
-`Docker` · `AWS` · `Azure` · `Linux`
-`MSTest` · `Selenium` · `GitHub Actions`
+`Docker` · `AWS` · `Azure` · `Linux` · `GitHub Actions`
 
-`GitHub Issues` · `Feature Branches` · `Pull Requests`
+`MSTest` · `Selenium` · `Pull Requests`
 `Code Review` · `Incremental Refactoring`
 
 ### AI / ML
 
-`PyTorch` · `CNN` · `RNN` · `Transformer`
-`K-Means` · `KNN` · `Logistic Regression` · `Random Forest`
-`Azure OpenAI` · `LangChain`
+`PyTorch` · `Transformers` · `CNN` · `RNN`
+
+`K-Means` · `KNN` · `Logistic Regression`
+`Random Forest` · `Azure OpenAI` · `LangChain`
 
 ---
 
-# 🧭 Engineering Journey
+# 🧭 Engineering Direction
 
 ```mermaid
 flowchart LR
     A["Build Features"]
-    --> B["Design Boundaries"]
+    --> B["Design Systems"]
     --> C["Improve Reliability"]
     --> D["Scale with Cloud"]
     --> E["Apply AI"]
 ```
 
-My current direction is moving from feature implementation toward understanding the **architecture, reliability, data, and infrastructure behind software systems**.
+My current direction is moving from feature implementation toward understanding the **architecture, data, reliability, and infrastructure behind software systems**.
 
 ---
 
 # 🌍 Global Experience
 
-| Country             | Experience                                                  |
-| ------------------- | ----------------------------------------------------------- |
-| 🇯🇵 **Japan**      | Software engineering career                                 |
-| 🇩🇪 **Germany**    | AI training · ML/DL · Azure OpenAI · Hackathon winning team |
-| 🇺🇿 **Uzbekistan** | International internship                                    |
-| 🇷🇴 **Romania**    | Independent stay · Romanian language learning               |
-| 🇰🇷 **Korea**      | Software engineering education and projects                 |
+| Country             | Experience                                               |
+| ------------------- | -------------------------------------------------------- |
+| 🇯🇵 **Japan**      | Software engineering career                              |
+| 🇩🇪 **Germany**    | Intensive AI training · ML/DL · Azure OpenAI · Hackathon |
+| 🇺🇿 **Uzbekistan** | International internship                                 |
+| 🇷🇴 **Romania**    | Independent stay · Language learning                     |
+| 🇰🇷 **Korea**      | Software engineering education and team projects         |
 
 ---
 
@@ -199,10 +261,8 @@ My current direction is moving from feature implementation toward understanding 
 
 # 💡 Engineering Philosophy
 
-I prefer learning technologies by applying them to real systems and understanding **why they are needed**.
-
-I value incremental improvement:
-
 **Build → Find limitations → Understand → Improve → Test → Review → Repeat**
+
+I prefer learning technologies by applying them to real systems and understanding **why a technology, architecture, or engineering practice is needed**.
 
 My goal is to understand both **implementation details and the larger systems around them**.
