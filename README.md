@@ -80,12 +80,17 @@ A Java/JSP team project that delivers family videos to senior users and automati
 
 ### My Contributions
 
-* Designed playback ↔ automatic reaction-recording interaction
-* Structured the Servlet → Logic → DAO processing flow
-* Designed unread/read video-state management
-* Implemented and reviewed parts of the recording/upload workflow
-* Participated in screen and server-processing design
-* Coordinated implementation decisions and team reviews
+As a **design-focused member of the team**, I was primarily responsible for translating requirements into implementable system behavior and testable specifications.
+
+* Designed application flows and server-side processing
+* Structured the Servlet → Logic → DAO architecture
+* Designed the video playback and automatic reaction-recording workflow
+* Defined unread/read video-state behavior and processing rules
+* Created development specifications for implementation
+* Designed test cases based on functional and boundary scenarios
+* Reviewed implementation against the agreed design and specifications
+* Coordinated design decisions and specification changes within the team
+
 
 The public repository also separates runtime data and secrets from source control through environment-based configuration and repository hygiene practices.
 
