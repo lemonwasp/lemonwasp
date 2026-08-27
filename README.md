@@ -4,14 +4,6 @@
 
 ### Backend Engineer based in Japan 🇯🇵
 
-**Backend Architecture · Data · Reliability · Automation**
-
-<br>
-
-> Building systems, understanding their structure, and improving them step by step.
-
-</div>
-
 ---
 
 ## 👨‍💻 About
