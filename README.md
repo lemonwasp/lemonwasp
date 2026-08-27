@@ -195,18 +195,28 @@ The reconstruction uses synthetic data only and keeps the historical team projec
   <img src="https://skillicons.dev/icons?i=cs,dotnet,java,ts,python,nestjs,fastapi,rails" />
 </p>
 
+<p>
+  <img src="https://img.shields.io/badge/ASP.NET_MVC-512BD4?style=flat-square&logo=dotnet&logoColor=white" />
+  <img src="https://img.shields.io/badge/Entity_Framework-512BD4?style=flat-square&logo=dotnet&logoColor=white" />
+  <img src="https://img.shields.io/badge/Jakarta_Servlet-E76F00?style=flat-square&logo=jakartaee&logoColor=white" />
+  <img src="https://img.shields.io/badge/TypeORM-FE0803?style=flat-square&logo=typeorm&logoColor=white" />
+</p>
+
 ### Data
 
 <p>
-  <img src="https://skillicons.dev/icons?i=postgres,mysql,sqlite" />
+  <img src="https://skillicons.dev/icons?i=postgres,mysql,sqlite,redis,supabase" />
 </p>
 
-`SQL Server` · `PostGIS` · `Entity Framework` · `TypeORM`
+<p>
+  <img src="https://img.shields.io/badge/SQL_Server-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white" />
+  <img src="https://img.shields.io/badge/PostGIS-336791?style=flat-square&logo=postgresql&logoColor=white" />
+</p>
 
 ### Frontend
 
 <p>
-  <img src="https://skillicons.dev/icons?i=vue,react,nextjs,vite,tailwind" />
+  <img src="https://skillicons.dev/icons?i=vue,react,nextjs,vite,tailwind,html,css" />
 </p>
 
 ### Infrastructure & Quality
@@ -215,16 +225,24 @@ The reconstruction uses synthetic data only and keeps the historical team projec
   <img src="https://skillicons.dev/icons?i=docker,aws,azure,linux,git,github" />
 </p>
 
-`GitHub Actions` · `MSTest` · `Selenium` · `Code Review`
+<p>
+  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" />
+  <img src="https://img.shields.io/badge/MSTest-5C2D91?style=flat-square&logo=visualstudio&logoColor=white" />
+  <img src="https://img.shields.io/badge/Selenium-43B02A?style=flat-square&logo=selenium&logoColor=white" />
+</p>
 
 ### AI / ML
 
 <p>
-  <img src="https://skillicons.dev/icons?i=pytorch" />
+  <img src="https://skillicons.dev/icons?i=pytorch,python" />
 </p>
 
-`Transformers` · `CNN` · `RNN` · `Random Forest`
-`Azure OpenAI` · `LangChain`
+<p>
+  <img src="https://img.shields.io/badge/Transformers-FFD21E?style=flat-square&logo=huggingface&logoColor=black" />
+  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square" />
+  <img src="https://img.shields.io/badge/Azure_OpenAI-0078D4?style=flat-square&logo=microsoftazure&logoColor=white" />
+  <img src="https://img.shields.io/badge/Random_Forest-4B8BBE?style=flat-square" />
+</p>
 
 
 ---
