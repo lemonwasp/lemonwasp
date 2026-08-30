@@ -299,8 +299,8 @@ These experiences have strengthened my adaptability, cross-cultural communicatio
 | Language      | Level                                      |
 | ------------- | ------------------------------------------ |
 | 🇰🇷 Korean   | Native                                     |
-| 🇯🇵 Japanese | C1 · Professional working proficiency · JLPT N1 |
-| 🇬🇧 English  | B2 · TOEIC Speaking AL                          |
+| 🇯🇵 Japanese | C1 · Business level · JLPT N1 |
+| 🇬🇧 English  | B2 · Business level · TOEIC Speaking AL         |
 | 🇷🇴 Romanian | A1 · Beginner · Currently learning              |
 
 ---
