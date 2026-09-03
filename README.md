@@ -1,5 +1,7 @@
 <div align="center">
 
+**English** | [日本語](README.ja.md)
+
 # Hi, I'm Taegwan Hong 👋
 
 ### Backend Engineer based in Japan 🇯🇵
