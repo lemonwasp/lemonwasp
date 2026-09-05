@@ -4,7 +4,7 @@
 
 ### 日本で働くバックエンドエンジニア
 
-**Architecture · Data · Reliability · Automation** を軸に、
+**アーキテクチャ · データ · 信頼性 · 自動化** を軸に、
 実装だけでなく、設計・データ・システム全体を理解できるエンジニアを目指しています。
 
 <br>
@@ -24,7 +24,7 @@
 
 ---
 
-## 👨‍💻 About Me
+## 👨‍💻 自己紹介
 
 日本でソフトウェアエンジニアとして働きながら、主に**バックエンドエンジニアリング**を学んでいます。
 
@@ -33,24 +33,24 @@
 | 項目 | 内容 |
 | --- | --- |
 | 📍 **拠点** | 日本 |
-| 🧭 **中心領域** | Backend Engineering |
-| 🔧 **現在の重点** | Architecture · Databases · Testing · Reliability |
-| 🚀 **今後伸ばす領域** | Cloud · Distributed Systems · Applied AI |
+| 🧭 **中心領域** | バックエンドエンジニアリング |
+| 🔧 **現在の重点** | アーキテクチャ · データベース · テスト · 信頼性 |
+| 🚀 **今後伸ばす領域** | クラウド · 分散システム · 応用AI |
 
 ---
 
-## 🎯 Current Focus
+## 🎯 現在の注力領域
 
-| Area | Focus |
+| 領域 | 内容 |
 | --- | --- |
-| **Backend Engineering** | C# · .NET · Java · TypeScript · SQL |
-| **Deepening** | Architecture · Database Design · Testing · CI/CD |
-| **Expanding Into** | Cloud Infrastructure · Performance · Observability |
-| **Exploring** | Distributed Systems · AI-enabled Software |
+| **バックエンド開発** | C# · .NET · Java · TypeScript · SQL |
+| **深掘り中** | アーキテクチャ · データベース設計 · テスト · CI/CD |
+| **拡張中** | クラウドインフラ · パフォーマンス · オブザーバビリティ |
+| **探索中** | 分散システム · AI活用ソフトウェア |
 
 ---
 
-# 🚀 Featured Projects
+# 🚀 主なプロジェクト
 
 ## 🏗️ Dotnet Backend Study
 
@@ -61,19 +61,19 @@
 ### 主な実装
 
 - Controller → Service → Repository構成
-- Repository抽象化とUnityによるDependency Injection
+- Repository抽象化とUnityによる依存性注入（DI）
 - Entity Framework 6 + SQL Server LocalDB
-- Code First Migrations
+- Code Firstによるマイグレーション
 - DTO／Entity分離とAutoMapper
-- Service層バリデーション
+- Service層のバリデーション
 - HTTP 400／404／500の共通例外処理
 - log4netによるアプリケーションログ
-- MSTestによるService層Unit Test
-- サーバーサイドPagination
-- Vue.js Frontend連携
+- MSTestによるService層の単体テスト
+- サーバーサイドページネーション
+- Vue.jsフロントエンド連携
 
-**Current:** Server-side pagination completed  
-**Next:** Search / Filtering
+**現在:** サーバーサイドページネーション完了  
+**次:** 検索／フィルタリング
 
 ➡️ [Dotnet Backend Study](https://github.com/lemonwasp/dotnet-study)
 
@@ -95,7 +95,7 @@
 - 正常系・境界値・例外系テストケースの設計
 - 実装レビューと仕様調整
 
-### Stack
+### 技術スタック
 
 `Java 21` · `Jakarta Servlet` · `JSP` · `JavaScript` · `MySQL 8` · `Apache Tomcat 10`
 
@@ -107,30 +107,30 @@
 
 > 食事をきっかけに人と人をつなぐソーシャルダイニングプラットフォーム。
 
-4名のチームで、Frontend、Backend、AI Serviceを分離して開発したプロジェクトです。
+4名のチームで、フロントエンド、バックエンド、AIサービスを分離して開発したプロジェクトです。
 
 ### 主な担当
 
-- 初期Entity設計
-- Authentication Flow
-- Album Backend
-- Chat Room Entity Relation
-- Comment DTO修正
+- 初期エンティティ設計
+- 認証フロー
+- アルバム機能のバックエンド
+- チャットルームのエンティティ関連設計
+- Comment DTOの修正
 - S3画像削除処理
 
-### Platform Highlights
+### プラットフォームの特徴
 
 - Next.js + NestJS
 - PostgreSQL + TypeORM
 - JWT + Google／Kakao OAuth
-- Socket.IOによるReal-time Chat
-- AWS S3画像管理
-- FastAPI AI Service
+- Socket.IOによるリアルタイムチャット
+- AWS S3による画像管理
+- FastAPIによるAIサービス連携
 - Docker + GitHub Actions
-- AWS ECS／ECR Deployment
+- AWS ECS／ECRによるデプロイ
 
-➡️ [Frontend](https://github.com/YJU-5/project-leteatgo-nextjs-repo)  
-➡️ [Backend](https://github.com/YJU-5/project-leteatgo-nestjs-repo)
+➡️ [フロントエンドリポジトリ](https://github.com/YJU-5/project-leteatgo-nextjs-repo)  
+➡️ [バックエンドリポジトリ](https://github.com/YJU-5/project-leteatgo-nestjs-repo)
 
 ---
 
@@ -138,80 +138,80 @@
 
 > 2024年にドイツ・ウルムで開発したAIハッカソンのプロトタイプを、プライバシーに配慮し再現可能な形で再構築するプロジェクト。
 
-公開版では元の企業データや社内資料を使用せず、合成CRMデータのみでMachine Learning Pipeline、Prediction API、Dashboard、LLM支援機能を再構築しています。
+公開版では元の企業データや社内資料を使用せず、合成CRMデータのみで機械学習パイプライン、予測API、ダッシュボード、LLM支援機能を再構築しています。
 
 ### 現在の進捗
 
-- Public／Private Data Boundaryの文書化
-- FastAPI Health Endpointと自動テスト
-- Historical Lead／Note Data Relationの再構築
-- 公開情報に基づくAggregate CRM Profileの文書化
-- Privacy-safe Synthetic Data Generator
+- 公開／非公開データ境界の文書化
+- FastAPIヘルスチェックエンドポイントと自動テスト
+- 過去のリード／ノートデータ関係の再構築
+- 公開情報に基づく集計CRMプロファイルの文書化
+- プライバシーに配慮した合成データ生成器
 
-### Engineering Goals
+### 技術目標
 
-- Leakage-safe ML Evaluation
-- Reproducible Preprocessing / Feature Pipeline
-- Prediction / Explanation API
-- React / TypeScript Dashboard
-- Human-reviewed LLM-assisted Outreach
-- Tests · Docker · CI
+- データリークを防いだML評価
+- 再現可能な前処理／特徴量パイプライン
+- 予測／説明API
+- React / TypeScriptダッシュボード
+- 人間のレビューを前提としたLLM支援アウトリーチ
+- 自動テスト · Docker · CI
 
 ➡️ [AI Lead Conversion Platform](https://github.com/lemonwasp/ai-lead-conversion-platform)
 
 ---
 
-# 🧰 Technology Landscape
+# 🧰 技術スタック
 
-## ⭐ Core
+## ⭐ 主要技術
 
 `C#` · `.NET` · `Java` · `TypeScript` · `Python` · `SQL`
 
-## ⚙️ Backend & APIs
+## ⚙️ バックエンド & API
 
 `ASP.NET MVC` · `Entity Framework` · `NestJS` · `FastAPI` · `Rails` · `Jakarta Servlet`
 
-## 🗄️ Database & Data
+## 🗄️ データベース & データ
 
 `PostgreSQL` · `SQL Server` · `MySQL` · `SQLite` · `PostGIS` · `Supabase`
 
-## ☁️ Infrastructure & Quality
+## ☁️ インフラ & 品質
 
 `Docker` · `AWS` · `Azure` · `Linux` · `GitHub Actions` · `MSTest` · `Selenium`
 
-## 🤖 AI / Machine Learning
+## 🤖 AI / 機械学習
 
 `PyTorch` · `Hugging Face Transformers` · `Azure OpenAI` · `LangChain`
 
 ---
 
-# 🌍 Global Experience
+# 🌍 海外経験
 
-| Country | Experience |
+| 国 | 経験 |
 | --- | --- |
-| 🇯🇵 **Japan** | Software engineering career · Japanese IT environment |
-| 🇩🇪 **Germany** | 1-month intensive AI training · ML / Deep Learning / Azure OpenAI · Hackathon winning team |
-| 🇺🇿 **Uzbekistan** | 1-week international internship |
-| 🇷🇴 **Romania** | 1-month independent stay · Romanian language learning |
-| 🇰🇷 **Korea** | Software engineering education · Team / Personal projects |
+| 🇯🇵 **日本** | ソフトウェアエンジニアとして勤務 · 日本のIT環境 |
+| 🇩🇪 **ドイツ** | 1か月のAI集中研修 · ML / Deep Learning / Azure OpenAI · ハッカソン優勝チーム |
+| 🇺🇿 **ウズベキスタン** | 1週間の国際インターンシップ |
+| 🇷🇴 **ルーマニア** | 1か月の個人滞在 · ルーマニア語学習 |
+| 🇰🇷 **韓国** | ソフトウェア工学教育 · チーム／個人開発プロジェクト |
 
 異なる環境で学び、生活し、開発する経験を通じて、新しいチームや文化へ適応しながら協働する力を磨いています。
 
 ---
 
-# 🗣️ Languages
+# 🗣️ 言語
 
-| Language | Level |
+| 言語 | レベル |
 | --- | --- |
-| 🇰🇷 Korean | Native |
-| 🇯🇵 Japanese | C1 · Business level · JLPT N1 |
-| 🇬🇧 English | B2 · Business level · TOEIC Speaking AL |
-| 🇩🇪 German | A1 · Beginner |
-| 🇷🇴 Romanian | A1 · Beginner · Currently learning |
+| 🇰🇷 韓国語 | ネイティブ |
+| 🇯🇵 日本語 | C1 · ビジネスレベル · JLPT N1 |
+| 🇬🇧 英語 | B2 · ビジネスレベル · TOEIC Speaking AL |
+| 🇩🇪 ドイツ語 | A1 · 初級 |
+| 🇷🇴 ルーマニア語 | A1 · 初級 · 学習中 |
 
 ---
 
-# 💡 Engineering Philosophy
+# 💡 エンジニアリングに対する考え方
 
 新しい技術やアーキテクチャパターンを導入するときは、次の問いを意識しています。
 
@@ -220,6 +220,6 @@
 > **どこに配置すべきなのか？**  
 > **どのようなトレードオフがあるのか？**
 
-**Build → Find a limitation → Understand → Improve → Test → Review → Repeat**
+**作る → 課題を見つける → 理解する → 改善する → テストする → 振り返る → 繰り返す**
 
 実装力だけでなく、設計・データ・信頼性・システム全体を理解できるエンジニアへ成長することを目標にしています。
