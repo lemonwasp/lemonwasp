@@ -206,6 +206,7 @@
 | 🇰🇷 Korean | Native |
 | 🇯🇵 Japanese | C1 · Business level · JLPT N1 |
 | 🇬🇧 English | B2 · Business level · TOEIC Speaking AL |
+| 🇩🇪 German | A1 · 初級 |
 | 🇷🇴 Romanian | A1 · Beginner · Currently learning |
 
 ---
