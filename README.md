@@ -45,7 +45,7 @@ I prefer learning technologies by integrating them into real applications and im
 
 ## 🎓 Education
 - Korea National Open University
-  - Bachelor's Degree (Expected Feb 2028)
+  - AI Major, Division of Advanced Engineering Bachelor's Degree (Expected Feb 2028)
 
 - Yeungjin University
   - Computer Information Technology Associate degree(2026)
