@@ -50,6 +50,12 @@ I prefer learning technologies by integrating them into real applications and im
 - Yeungjin University
   - Computer Information Technology Associate degree(2026)
 
+## 💼 Work Experience
+
+**TIS西日本株式会社 (TIS West Japan)**
+- Software Engineer | Apr 2026 – Present
+- C# / .NET Framework / Vue.js
+- Enterprise System Development
 
 ---
 
