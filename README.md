@@ -42,6 +42,15 @@ I prefer learning technologies by integrating them into real applications and im
 | 🔧 **Current Focus**  | Architecture · Databases · Testing · Reliability |
 | 🚀 **Growing Toward** | Cloud · Distributed Systems · Applied AI         |
 
+
+## 🎓 Education
+- Korea National Open University
+  - Bachelor's Degree (Expected Feb 2028)
+
+- Yeungjin University
+  - Computer Information Technology Associate degree(2026)
+
+
 ---
 
 ## 🎯 Current Focus
