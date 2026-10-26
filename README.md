@@ -54,8 +54,6 @@ I prefer learning technologies by integrating them into real applications and im
 
 **TIS西日本株式会社 (TIS West Japan)**
 - Software Engineer | Apr 2026 – Present
-- C# / .NET Framework / Vue.js
-- Enterprise System Development
 
 ---
 
