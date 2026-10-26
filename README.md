@@ -47,11 +47,11 @@ I prefer learning technologies by integrating them into real applications and im
 
 **Korea National Open University**
 - Department: Prime College, Division of Advanced Engineering (AI)
-- Degree: Bachelor's Degree (Expected February 2028)
+- Degree: Bachelor's Degree (March 2026 ~ Present, Expected February 2028)
 
 **Yeungjin University**
 - Department: Division of Computer Information (Cloud/Japan IT)
-- Degree: Associate Degree of Engineering (February 2026)
+- Degree: Associate Degree of Engineering (March 2023 ~ February 2026)
 - Micro Degree: AI + Japan IT
 
 
