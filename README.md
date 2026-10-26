@@ -46,20 +46,20 @@ I prefer learning technologies by integrating them into real applications and im
 ## 🎓 Education
 
 **Korea National Open University**
-- Bachelor's Degree (In Progress)
-- Expected Graduation: February 2028
+- Department: Prime College, Division of Advanced Engineering (AI)
+- Degree: Bachelor's Degree (Expected February 2028)
 
 **Yeungjin University**
-- Department of Computer Information Technology
-- Major in Japanese IT
-- Graduated: February 2026
+- Department: Division of Computer Information (Cloud/Japan IT)
+- Degree: Associate Degree of Engineering (February 2026)
+- Micro Degree: AI + Japan IT
 
 
 ## 💼 Work Experience
 
 **TIS West Japan Inc.**
-- Software Engineer
-- April 2026 – Present
+- Position: Software Engineer
+- Period: April 2026 – Present
 
 ---
 
