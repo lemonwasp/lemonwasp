@@ -9,6 +9,8 @@
 Building backend systems with a focus on
 **Architecture · Data · Reliability · Automation**
 
+🏆 **JPHACKS 2026 Hack Day Audience Award (Hiroshima)** — [IBUKI](https://github.com/jphacks/hs_2605)
+
 <br>
 
 ![C#](https://img.shields.io/badge/C%23-512BD4?style=flat-square\&logo=dotnet\&logoColor=white)
@@ -76,40 +78,56 @@ I prefer learning technologies by integrating them into real applications and im
 
 # 🚀 Featured Projects
 
-## 🏗️ Dotnet Backend Study
+## 🏆 IBUKI — Contactless Infant Breathing Monitor
 
-> Evolving a simple ASP.NET MVC CRUD application into a structured and maintainable backend system.
+> A camera-free, wearable-free breathing monitoring prototype using 60 GHz mmWave radar.
 
-This project is an incremental backend refactoring study focused on understanding why architecture and infrastructure components are introduced.
+**🏆 JPHACKS 2026 Hack Day Audience Award — Hiroshima venue** · 3-member team
 
-### Engineering Focus
+IBUKI combines radar sensing, real-time visualization, alerts, and on-device AI. Tests used adult recordings; it is **not a medical device**.
 
-`Architecture` · `Persistence` · `Dependency Injection`
-`Testing` · `Error Handling` · `Maintainability`
+### My Contributions
 
-### Implemented
+- Redesigned and refined the React/TypeScript dashboard, including responsive status displays and waveform presentation.
+- Built the Windows one-command launcher for environment setup, dashboard builds, server startup, and browser opening.
+- Added native Windows alarm playback and integrated existing alarm acknowledgment flows.
+- Verified UI changes with automated tests and browser-based regression checks.
 
-* Controller → Service → Repository architecture
-* Repository abstraction and Unity Dependency Injection
-* Entity Framework 6 + SQL Server LocalDB
-* Code First Migrations
-* DTO / Entity separation with AutoMapper
-* Service-layer validation
-* Global HTTP 400 / 404 / 500 exception handling
-* Application logging with log4net
-* MSTest service-layer unit tests
-* Server-side pagination with validation and boundary handling
-* Vue.js frontend integration
+**Technologies:** `React` · `TypeScript` · `WebSocket` · `Python` · `FastAPI` · `Infineon PSOC Edge E84`
 
-**Current:** Server-side pagination completed
-**Next:** Search / Filtering
+[Project & Demo](https://github.com/jphacks/hs_2605) · [Windows/Alarm PR #66](https://github.com/jphacks/hs_2605/pull/66) · [Dashboard PR #77](https://github.com/jphacks/hs_2605/pull/77)
 
-Development trail:
+<p align="center"><img src="https://raw.githubusercontent.com/jphacks/hs_2605/main/docs/images/dashboard_breathing.png" alt="IBUKI breathing monitoring dashboard" width="640" /></p>
 
-[Issue #26](https://github.com/lemonwasp/dotnet-study/issues/26)
-→ [Merged PR #27](https://github.com/lemonwasp/dotnet-study/pull/27)
+---
 
-➡️ [Explore Dotnet Backend Study](https://github.com/lemonwasp/dotnet-study)
+## 🤖 AI Lead Conversion Platform
+
+> Reconstructing a 2024 AI hackathon prototype as a privacy-safe and reproducible software project.
+
+The current repository is an independent reconstruction using synthetic CRM data and does not contain the original corporate dataset or proprietary source files.
+
+### Current Progress
+
+* Public / private data boundaries documented
+* FastAPI health endpoint and automated test added
+* Historical lead / note data relationships reconstructed
+* Public aggregate CRM profile documented
+* Privacy-safe synthetic data generator calibrated to observed aggregate behavior
+
+### Engineering Goals
+
+* Leakage-safe machine-learning evaluation
+* Reproducible preprocessing and feature pipelines
+* Prediction and explanation APIs
+* React / TypeScript dashboard
+* Human-reviewed LLM-assisted outreach
+* Automated tests, Docker, and CI
+
+🚧 **Current phase:** calibrated synthetic data foundation
+➡️ **Next:** leakage-safe preprocessing · reproducible EDA · model baselines
+
+➡️ [Follow the Reconstruction](https://github.com/lemonwasp/ai-lead-conversion-platform)
 
 ---
 
@@ -175,36 +193,6 @@ A **4-member team project** built as separate frontend, backend, and AI-service 
 
 ➡️ [Frontend Repository](https://github.com/YJU-5/project-leteatgo-nextjs-repo)
 ➡️ [Backend Repository](https://github.com/YJU-5/project-leteatgo-nestjs-repo)
-
----
-
-## 🤖 AI Lead Conversion Platform
-
-> Reconstructing a 2024 AI hackathon prototype as a privacy-safe and reproducible software project.
-
-The current repository is an independent reconstruction using synthetic CRM data and does not contain the original corporate dataset or proprietary source files.
-
-### Current Progress
-
-* Public / private data boundaries documented
-* FastAPI health endpoint and automated test added
-* Historical lead / note data relationships reconstructed
-* Public aggregate CRM profile documented
-* Privacy-safe synthetic data generator calibrated to observed aggregate behavior
-
-### Engineering Goals
-
-* Leakage-safe machine-learning evaluation
-* Reproducible preprocessing and feature pipelines
-* Prediction and explanation APIs
-* React / TypeScript dashboard
-* Human-reviewed LLM-assisted outreach
-* Automated tests, Docker, and CI
-
-🚧 **Current phase:** calibrated synthetic data foundation
-➡️ **Next:** leakage-safe preprocessing · reproducible EDA · model baselines
-
-➡️ [Follow the Reconstruction](https://github.com/lemonwasp/ai-lead-conversion-platform)
 
 ---
 
