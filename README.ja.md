@@ -7,6 +7,8 @@
 **アーキテクチャ · データ · 信頼性 · 自動化** を軸に、
 実装だけでなく、設計・データ・システム全体を理解できるエンジニアを目指しています。
 
+🏆 **JPHACKS 2026 Hack Day Audience Award（広島会場）受賞** — [息吹～IBUKI～](https://github.com/jphacks/hs_2605)
+
 <br>
 
 [English](README.md) | **日本語**
@@ -71,30 +73,53 @@
 
 # 🚀 主なプロジェクト
 
-## 🏗️ Dotnet Backend Study
+## 🏆 息吹～IBUKI～ | JPHACKS 2026
 
-> シンプルなASP.NET MVC CRUDアプリケーションを、保守しやすいバックエンドシステムへ段階的に発展させる学習プロジェクト。
+> 60 GHzミリ波レーダーによる、カメラ・ウェアラブル端末不要の乳児呼吸見守りプロトタイプ。
 
-単純なCRUDから出発し、アーキテクチャ、永続化、依存関係管理、テスト、例外処理、ロギングなどを既存システムへ一つずつ導入しています。
+**🏆 JPHACKS 2026 Hack Day Audience Award（広島会場）受賞** · 3名チーム
 
-### 主な実装
+チームでレーダー計測、リアルタイム可視化、通知、オンデバイスAIを組み合わせました。評価には成人の記録を使用しており、**医療機器ではありません**。
 
-- Controller → Service → Repository構成
-- Repository抽象化とUnityによる依存性注入（DI）
-- Entity Framework 6 + SQL Server LocalDB
-- Code Firstによるマイグレーション
-- DTO／Entity分離とAutoMapper
-- Service層のバリデーション
-- HTTP 400／404／500の共通例外処理
-- log4netによるアプリケーションログ
-- MSTestによるService層の単体テスト
-- サーバーサイドページネーション
-- Vue.jsフロントエンド連携
+### 私の担当
 
-**現在:** サーバーサイドページネーション完了  
-**次:** 検索／フィルタリング
+- React/TypeScriptダッシュボードの再設計・改善（レスポンシブ対応、状態表示、波形の表示設計）。
+- Windows向けワンコマンド起動機能（環境準備、ダッシュボードのビルド、サーバー起動、ブラウザ起動）。
+- Windowsのネイティブ警告音再生と既存のアラーム停止処理との連携。
+- 自動テストとブラウザ上の回帰確認によるUI変更の検証。
 
-➡️ [Dotnet Backend Study](https://github.com/lemonwasp/dotnet-study)
+**技術:** `React` · `TypeScript` · `WebSocket` · `Python` · `FastAPI` · `Infineon PSOC Edge E84`
+
+[プロジェクト・デモ](https://github.com/jphacks/hs_2605) · [Windows／アラーム PR #66](https://github.com/jphacks/hs_2605/pull/66) · [ダッシュボード PR #77](https://github.com/jphacks/hs_2605/pull/77)
+
+<p align="center"><img src="https://raw.githubusercontent.com/jphacks/hs_2605/main/docs/images/dashboard_breathing.png" alt="IBUKIの呼吸モニタリングダッシュボード" width="640" /></p>
+
+---
+
+## 🤖 AI Lead Conversion Platform
+
+> 2024年にドイツ・ウルムで開発したAIハッカソンのプロトタイプを、プライバシーに配慮し再現可能な形で再構築するプロジェクト。
+
+公開版では元の企業データや社内資料を使用せず、合成CRMデータのみで機械学習パイプライン、予測API、ダッシュボード、LLM支援機能を再構築しています。
+
+### 現在の進捗
+
+- 公開／非公開データ境界の文書化
+- FastAPIヘルスチェックエンドポイントと自動テスト
+- 過去のリード／ノートデータ関係の再構築
+- 公開情報に基づく集計CRMプロファイルの文書化
+- プライバシーに配慮した合成データ生成器
+
+### 技術目標
+
+- データリークを防いだML評価
+- 再現可能な前処理／特徴量パイプライン
+- 予測／説明API
+- React / TypeScriptダッシュボード
+- 人間のレビューを前提としたLLM支援アウトリーチ
+- 自動テスト · Docker · CI
+
+➡️ [AI Lead Conversion Platform](https://github.com/lemonwasp/ai-lead-conversion-platform)
 
 ---
 
@@ -150,33 +175,6 @@
 
 ➡️ [フロントエンドリポジトリ](https://github.com/YJU-5/project-leteatgo-nextjs-repo)  
 ➡️ [バックエンドリポジトリ](https://github.com/YJU-5/project-leteatgo-nestjs-repo)
-
----
-
-## 🤖 AI Lead Conversion Platform
-
-> 2024年にドイツ・ウルムで開発したAIハッカソンのプロトタイプを、プライバシーに配慮し再現可能な形で再構築するプロジェクト。
-
-公開版では元の企業データや社内資料を使用せず、合成CRMデータのみで機械学習パイプライン、予測API、ダッシュボード、LLM支援機能を再構築しています。
-
-### 現在の進捗
-
-- 公開／非公開データ境界の文書化
-- FastAPIヘルスチェックエンドポイントと自動テスト
-- 過去のリード／ノートデータ関係の再構築
-- 公開情報に基づく集計CRMプロファイルの文書化
-- プライバシーに配慮した合成データ生成器
-
-### 技術目標
-
-- データリークを防いだML評価
-- 再現可能な前処理／特徴量パイプライン
-- 予測／説明API
-- React / TypeScriptダッシュボード
-- 人間のレビューを前提としたLLM支援アウトリーチ
-- 自動テスト · Docker · CI
-
-➡️ [AI Lead Conversion Platform](https://github.com/lemonwasp/ai-lead-conversion-platform)
 
 ---
 
