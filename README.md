@@ -11,6 +11,8 @@ Building backend systems with a focus on
 
 🏆 **JPHACKS 2026 Hack Day Audience Award (Hiroshima)** — [IBUKI](https://github.com/jphacks/hs_2605)
 
+[![XERJ Corpus Hub contributor](https://hub.xerj.org/contributors/lemonwasp/badge.svg)](https://hub.xerj.org/contributors/lemonwasp)
+
 <br>
 
 ![C#](https://img.shields.io/badge/C%23-512BD4?style=flat-square\&logo=dotnet\&logoColor=white)
@@ -92,6 +94,8 @@ IBUKI combines radar sensing, real-time visualization, alerts, and on-device AI.
 - Built the Windows one-command launcher for environment setup, dashboard builds, server startup, and browser opening.
 - Added native Windows alarm playback and integrated existing alarm acknowledgment flows.
 - Verified UI changes with automated tests and browser-based regression checks.
+
+**XERJ Corpus Hub:** My [Windows launcher and native alarm playback contribution](https://github.com/jphacks/hs_2605/commit/f138e6998f100be26d32c718737406e339f7c4cf) was selected for inclusion. [Contributor profile](https://hub.xerj.org/contributors/lemonwasp).
 
 **Technologies:** `React` · `TypeScript` · `WebSocket` · `Python` · `FastAPI` · `Infineon PSOC Edge E84`
 
