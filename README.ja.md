@@ -9,6 +9,8 @@
 
 🏆 **JPHACKS 2026 Hack Day Audience Award（広島会場）受賞** — [息吹～IBUKI～](https://github.com/jphacks/hs_2605)
 
+[![XERJ Corpus Hub コントリビューター](https://hub.xerj.org/contributors/lemonwasp/badge.svg)](https://hub.xerj.org/contributors/lemonwasp)
+
 <br>
 
 [English](README.md) | **日本語**
@@ -87,6 +89,8 @@
 - Windows向けワンコマンド起動機能（環境準備、ダッシュボードのビルド、サーバー起動、ブラウザ起動）。
 - Windowsのネイティブ警告音再生と既存のアラーム停止処理との連携。
 - 自動テストとブラウザ上の回帰確認によるUI変更の検証。
+
+**XERJ Corpus Hub:** [Windows向け起動機能・ネイティブ警告音再生の実装](https://github.com/jphacks/hs_2605/commit/f138e6998f100be26d32c718737406e339f7c4cf)が収録対象に選定されました。[コントリビューターページ](https://hub.xerj.org/contributors/lemonwasp)。
 
 **技術:** `React` · `TypeScript` · `WebSocket` · `Python` · `FastAPI` · `Infineon PSOC Edge E84`
 
