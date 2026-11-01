@@ -82,24 +82,26 @@ I prefer learning technologies by integrating them into real applications and im
 
 ## 🏆 IBUKI — Contactless Infant Breathing Monitor
 
-> A camera-free, wearable-free breathing monitoring prototype using 60 GHz mmWave radar.
+> A camera-free, wearable-free monitoring prototype using 60 GHz mmWave radar.
 
 **🏆 JPHACKS 2026 Hack Day Audience Award — Hiroshima venue** · 3-member team
 
-IBUKI combines radar sensing, real-time visualization, alerts, and on-device AI. Tests used adult recordings; it is **not a medical device**.
+IBUKI combines radar sensing, real-time visualization, alerts, and on-device AI, including board-originated Wi-Fi notifications. Hardware checks used adults, **not infants**; it is **not a medical device**.
 
 ### My Contributions
 
-- Redesigned and refined the React/TypeScript dashboard, including responsive status displays and waveform presentation.
+- Built and refined the React/TypeScript dashboard, displaying live Brain status and alerts via **WebSocket** while distinguishing reconnecting, stale data, and sensor disconnection.
 - Built the Windows one-command launcher for environment setup, dashboard builds, server startup, and browser opening.
 - Added native Windows alarm playback and integrated existing alarm acknowledgment flows.
-- Verified UI changes with automated tests and browser-based regression checks.
+- Developed an **offline radar-data workflow** for capture parsing, quality checks, Parquet datasets, signal/STFT visualization, denoising and CNN-sensitivity comparisons, and standalone HTML reports.
+- Created a standalone **2D Radar Explorer**, interactive **3D crib/synthetic-position visualization**, and a guided three-step product walkthrough. These are offline experiments and conceptual demos, not validated infant tracking.
+- Added automated tests and browser-based regression checks for the dashboard and analysis tools.
 
 **XERJ Corpus Hub:** My [Windows launcher and native alarm playback contribution](https://github.com/jphacks/hs_2605/commit/f138e6998f100be26d32c718737406e339f7c4cf) was selected for inclusion. [Contributor profile](https://hub.xerj.org/contributors/lemonwasp).
 
-**Technologies:** `React` · `TypeScript` · `WebSocket` · `Python` · `FastAPI` · `Infineon PSOC Edge E84`
+**Technologies:** `React` · `TypeScript` · `WebSocket` · `Python` · `FastAPI` · `Parquet` · `Three.js` · `Infineon PSOC Edge E84`
 
-[Project & Demo](https://github.com/jphacks/hs_2605) · [Windows/Alarm PR #66](https://github.com/jphacks/hs_2605/pull/66) · [Dashboard PR #77](https://github.com/jphacks/hs_2605/pull/77)
+[Project & Demo](https://github.com/jphacks/hs_2605) · [WebSocket UI PR #39](https://github.com/jphacks/hs_2605/pull/39) · [Windows/Alarm PR #66](https://github.com/jphacks/hs_2605/pull/66) · [Dashboard PR #77](https://github.com/jphacks/hs_2605/pull/77) · [Data Pipeline PR #112](https://github.com/jphacks/hs_2605/pull/112) · [Radar Explorer PR #119](https://github.com/jphacks/hs_2605/pull/119) · [Showcase PR #126](https://github.com/jphacks/hs_2605/pull/126)
 
 <p align="center"><img src="https://raw.githubusercontent.com/jphacks/hs_2605/main/docs/images/dashboard_breathing.png" alt="IBUKI breathing monitoring dashboard" width="640" /></p>
 
