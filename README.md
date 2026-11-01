@@ -41,10 +41,10 @@ I prefer learning technologies by integrating them into real applications and im
 
 |                       |                                                  |
 | --------------------- | ------------------------------------------------ |
-| 📍 **Based in**       | Japan                                            |
-| 🧭 **Core Direction** | Backend Engineering                              |
-| 🔧 **Current Focus**  | Architecture · Databases · Testing · Reliability |
-| 🚀 **Growing Toward** | Cloud · Distributed Systems · Applied AI         |
+| 📍 **Based in**       | Japan                                                      |
+| 🧭 **Core Direction** | Backend Engineering                                        |
+| 🔧 **Current Focus**  | Architecture · Data Pipelines · Real-time Systems · Reliability |
+| 🚀 **Growing Toward** | Cloud / Platform · Distributed Systems · Enterprise AI     |
 
 
 ## 🎓 Education
