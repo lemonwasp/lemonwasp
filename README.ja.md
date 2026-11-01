@@ -77,24 +77,26 @@
 
 ## 🏆 息吹～IBUKI～ | JPHACKS 2026
 
-> 60 GHzミリ波レーダーによる、カメラ・ウェアラブル端末不要の乳児呼吸見守りプロトタイプ。
+> 60 GHzミリ波レーダーによる、カメラ・ウェアラブル端末不要の見守りプロトタイプ。
 
 **🏆 JPHACKS 2026 Hack Day Audience Award（広島会場）受賞** · 3名チーム
 
-チームでレーダー計測、リアルタイム可視化、通知、オンデバイスAIを組み合わせました。評価には成人の記録を使用しており、**医療機器ではありません**。
+レーダー計測、リアルタイム可視化、通知、オンデバイスAI、ボードからのWi-Fi通知を組み合わせました。実機での確認は**成人を対象**としており、乳児では未検証です。**医療機器ではありません**。
 
 ### 私の担当
 
-- React/TypeScriptダッシュボードの再設計・改善（レスポンシブ対応、状態表示、波形の表示設計）。
+- React/TypeScriptダッシュボードの開発・改善。**WebSocket**でBrainの状態・通知を受信し、再接続中・データ更新停止・センサー切断を区別して表示。
 - Windows向けワンコマンド起動機能（環境準備、ダッシュボードのビルド、サーバー起動、ブラウザ起動）。
 - Windowsのネイティブ警告音再生と既存のアラーム停止処理との連携。
-- 自動テストとブラウザ上の回帰確認によるUI変更の検証。
+- **レーダーデータのオフライン解析基盤**：録画の解析・品質診断、Parquetデータセット、信号・STFT可視化、ノイズ除去とCNN入力・予測への影響比較、単体HTMLレポート。
+- **2D Radar Explorer**、合成位置データを使った**3Dベッド模型**、3ステップの製品紹介デモを開発。実際の乳児の追跡・測位精度を示すものではありません。
+- ダッシュボードと解析機能の自動テスト・ブラウザ回帰確認。
 
 **XERJ Corpus Hub:** [Windows向け起動機能・ネイティブ警告音再生の実装](https://github.com/jphacks/hs_2605/commit/f138e6998f100be26d32c718737406e339f7c4cf)が収録対象に選定されました。[コントリビューターページ](https://hub.xerj.org/contributors/lemonwasp)。
 
-**技術:** `React` · `TypeScript` · `WebSocket` · `Python` · `FastAPI` · `Infineon PSOC Edge E84`
+**技術:** `React` · `TypeScript` · `WebSocket` · `Python` · `FastAPI` · `Parquet` · `Three.js` · `Infineon PSOC Edge E84`
 
-[プロジェクト・デモ](https://github.com/jphacks/hs_2605) · [Windows／アラーム PR #66](https://github.com/jphacks/hs_2605/pull/66) · [ダッシュボード PR #77](https://github.com/jphacks/hs_2605/pull/77)
+[プロジェクト・デモ](https://github.com/jphacks/hs_2605) · [WebSocket UI PR #39](https://github.com/jphacks/hs_2605/pull/39) · [Windows／アラーム PR #66](https://github.com/jphacks/hs_2605/pull/66) · [ダッシュボード PR #77](https://github.com/jphacks/hs_2605/pull/77) · [データ基盤 PR #112](https://github.com/jphacks/hs_2605/pull/112) · [Radar Explorer PR #119](https://github.com/jphacks/hs_2605/pull/119) · [製品紹介 PR #126](https://github.com/jphacks/hs_2605/pull/126)
 
 <p align="center"><img src="https://raw.githubusercontent.com/jphacks/hs_2605/main/docs/images/dashboard_breathing.png" alt="IBUKIの呼吸モニタリングダッシュボード" width="640" /></p>
 
