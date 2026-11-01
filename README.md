@@ -39,12 +39,14 @@ I enjoy understanding not only how to make software work, but also why systems a
 
 I prefer learning technologies by integrating them into real applications and improving those applications through small, reviewable changes.
 
-|                       |                                                  |
-| --------------------- | ------------------------------------------------ |
-| 📍 **Based in**       | Japan                                                      |
-| 🧭 **Core Direction** | Backend Engineering                                        |
-| 🔧 **Current Focus**  | Architecture · Data Pipelines · Real-time Systems · Reliability |
-| 🚀 **Growing Toward** | Cloud / Platform · Distributed Systems · Enterprise AI     |
+<table>
+  <tbody>
+    <tr><td>📍 <strong>Based in</strong></td><td>Japan</td></tr>
+    <tr><td>🧭 <strong>Core Direction</strong></td><td>Backend Engineering</td></tr>
+    <tr><td>🔧 <strong>Current Focus</strong></td><td>Architecture · Data Pipelines · Real-time Systems · Reliability</td></tr>
+    <tr><td>🚀 <strong>Growing Toward</strong></td><td>Cloud / Platform · Distributed Systems · Enterprise AI</td></tr>
+  </tbody>
+</table>
 
 
 ## 🎓 Education
